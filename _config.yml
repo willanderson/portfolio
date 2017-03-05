@@ -1,6 +1,16 @@
+---
+title: Wma Portfolio
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  works:
+    title: Works
+    output: true
+    permalink: "/work/:path/"
 url: http://willanderson.co
 show_drafts: true
-collections:
-  works:
-    output: true
-    permalink: /work/:path/
