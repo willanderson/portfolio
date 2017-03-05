@@ -1,0 +1,6 @@
+url: http://willanderson.co
+show_drafts: true
+collections:
+  works:
+    output: true
+    permalink: /work/:path/
