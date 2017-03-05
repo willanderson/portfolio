@@ -9,7 +9,7 @@ html, body {
     margin: 0;
     padding: 0;
     color: #1A1A1A;
-    font-family: ``'Helvetica', sans-serif;}
+    font-family: 'Dia-Regular', 'Helvetica', sans-serif;}
 
 img {
   width: 100%;
@@ -42,6 +42,34 @@ img {
 
 
 /* Sidewide Typography*/
+
+@font-face {
+  font-family: 'Dia-Regular';
+  src: url('../assets/Dia-Regular.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dia-Regular';
+  src: url('../assets/Dia-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dia-Regular';
+  src: url('../assets/Dia-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dia-Regular';
+  src: url('../assets/Dia-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 h1, h2, h3, h4 {
   font-style: normal;
