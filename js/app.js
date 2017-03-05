@@ -1,13 +1,7 @@
 $(document).ready(function() {
 
-  // $(document).on('scroll', function() {
-  //   if($(this).scrollTop()>=$('#work').position().top){
-  //       $(".work-header-image").addClass("removeHeader");
-  //   }
-  // })
-
-    var header_height = $("#header").outerHeight(true);
-    $(".content").css("padding-top", header_height);
+  var header_height = $("#header").outerHeight(true);
+  $("section").css("padding-top", header_height);
 
   $("#turnOn").click(function(){
       $("#mobile_wrapper").toggleClass("hide");

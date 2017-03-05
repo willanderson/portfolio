@@ -1,0 +1,110 @@
+<div class="post">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row work-intro">
+                    <div class="col-md-8">
+                        <h2>
+                            {{ content }}
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% for image in page.images %}
+        <div class="row spacer">
+            <div class="col-md-12">
+                <div class="image-row">
+                    <img src="{{ image.image_path }}" data-action="zoom">
+                </div>
+                {% if image.caption %}
+                <div class="img-caption">
+                    <span>{{ image.caption }}</span>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="info">
+                    <div class="row">
+                        <div class="info--header col-md-4">
+                            <h3>Info</h3>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>Date</h4>
+                        </div>
+                        <div class="col-md-4">
+                          <p>{{ page.date | date: "%B %-d, %Y" }}</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="info--header col-md-4">
+                        </div>
+                        <div class="col-md-4">
+                            <h4>URL</h4>
+                        </div>
+                        <div class="col-md-4">
+                          <a href="{{ page.source }}">{{ page.name }}</a>
+                        </div>
+                    </div>
+                </div>
+                {% if page.credits %}
+                <div class="info">
+                    <div class="row">
+                        <div class="info--header col-md-4">
+                            <h3>Credits</h3>
+                        </div>
+                        {% for credit in page.credits limit: 1 %}
+                        <div class="col-md-4">
+                         <h4>{{ credit.job }}</h4>
+                        </div>
+                        <div class="col-md-4">
+                          <p>{{ credit.name }}</p>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% for credit in page.credits offset: 1 %}
+                      <div class="row">
+                        <div class="info--header col-md-4">
+                        </div>
+                        <div class="col-md-4">
+                         <h4>{{ credit.job }}</h4>
+                        </div>
+                        <div class="col-md-4">
+                          {% if credit.url %}
+                            <p><a href="{{ credit.url }}">{{ credit.name }}</a></p>
+                          {% else %}
+                            <p>{{ credit.name }}</p>
+                          {% endif %}
+                        </div>
+                      </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+                {% if page.press %}
+                <div class="info">
+                    <div class="row">
+                        <div class="info--header col-md-4">
+                            <h3>Press</h3>
+                        </div>
+                        <div class="col-md-4">
+                            {% for article in page.press %}
+                            <p><a href="{{ article.url }}">{{ article.pub }}</a></p>
+                            {% endfor %}
+                        </div>
+                        <div class="col-md-4">
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 spacer"></div>
+        </div>
+    </div>
+</div>

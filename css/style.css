@@ -28,7 +28,7 @@ img {
   display: none;
 }
 
-.content {
+section {
   background-color: white;
 }
 
@@ -119,6 +119,11 @@ header {
   position: absolute;
   top: 0;
   left: 0 }
+
+nav a.active {
+  text-decoration: underline;
+}
+
 
 .mobile {
   display: none;
@@ -226,8 +231,7 @@ footer ul li a {
 
 /*Site Intro*/
 
-section.intro {
-    margin-top:  3.5rem;
+.intro {
     background-color: #f8f8f8; }
 
 .intro_insert {
@@ -406,6 +410,13 @@ li.active {
   color: #1A1A1A;
 }
 
+@media screen and (max-width: 768px) {
+  .info--header h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+}
+
 .info h4 {
   font-size: 14px;
   color: #1A1A1A;
@@ -418,46 +429,46 @@ li.active {
   background-size: cover;
 }
 
+@media screen and (max-width: 768px) {
+  .subhero-image {
+    height: 667px;
+  }
+}
 
 /*About */
 
 .about-row {
   margin-top: 2rem;
-  display: flex;
-  align-items: baseline;
-  flex-wrap: wrap;
 }
 
-.about-row h1,h2,h3 {
+.about h1,h2,h3 {
   font-size: 16px;
 }
 
-.about-row p {
+.about p {
   font-size: 13px;
 }
 
-.about-row h2 {
+.about h2 {
   color: #adacac;
   text-decoration: underline;
 }
 
-.tab {
+.about .tab {
   display: block;
 }
 
 
-
-
 @media screen and (max-width: 768px) {
-  .about-row h1 {
+.about h1 {
       font-size: 22px;
       width: 100%;
   }
-  .about-row .tab {
+.about .tab {
     display: none;
   }
 
-  .about-row .section-header {
+.about .section-header {
     width: 100%;
     margin-bottom: 15px;
   }
