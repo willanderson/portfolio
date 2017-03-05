@@ -1,7 +1,9 @@
 ---
 title: Will
-layout: index
 permalink: "/"
+layout: index
 show_intro: true
-intro: Hi, my name is Will. I’m a visual designer working for Everlane in San Francisco, CA.
+intro: Hi, my name is Will. I’m a visual designer working for Everlane in San Francisco,
+  CA.
 ---
+
