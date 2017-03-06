@@ -431,7 +431,8 @@ li.active {
 
 @media screen and (max-width: 768px) {
   .subhero-image {
-    height: 667px;
+    max-height: 667px;
+    max-width: 100%;
   }
 }
 
