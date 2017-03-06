@@ -3,7 +3,11 @@ layout: default
 ---
 
 <div class="subhero">
-  <div class="subhero-image" {% if page.bg-image %} style="background-image: url({{ page.bg-image }})"></div>{% endif %}
+  <div class="subhero-image" style="background-image: url({{ page.bg-image }})"></div>
+</div>
+
+<div class="mobile_subhero">
+  <img class="mobile_subhero" src="{{ page.bg-image}} " />
 </div>
 
 {% include post.html %}

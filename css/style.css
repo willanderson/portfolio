@@ -422,6 +422,14 @@ li.active {
   color: #1A1A1A;
 }
 
+.subhero {
+  display: block;
+}
+
+.mobile_subhero {
+  display: none;
+}
+
 .subhero-image {
   height: 75vh;
   background-attachment: fixed;
@@ -430,9 +438,11 @@ li.active {
 }
 
 @media screen and (max-width: 768px) {
-  .subhero-image {
-    max-height: 667px;
-    max-width: 100%;
+  .subhero {
+    display: none;
+  }
+  .mobile_subhero {
+    display: block;
   }
 }
 
