@@ -1,7 +1,6 @@
 ---
 title: About
 permalink: "/about/"
-layout: about
 navigation_weight: 1
 intro: I'm a visual designer with a focus on interactive design, UI/UX, and digital
   storytelling. I've been on the Creative Team at Everlane since 2015, where I've
@@ -33,7 +32,7 @@ background:
     print and online content. Awarded First Place in Design by the New York Press
     Association (2014), and Best in Show by the ACP (2013)
 email: wmaxand@gmail.com
-phone: "(310) 892-5239"
+phone: "(650) 761-1325"
 social:
 - account: Instagram
   url: http://instagram.com/willanderson
@@ -43,5 +42,6 @@ social:
   url: linkedin.com/in/wmaxand
 - account: Github
   url: http://github.com/willanderson
+layout: about
 ---
 
