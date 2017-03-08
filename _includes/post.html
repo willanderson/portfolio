@@ -12,18 +12,13 @@
             </div>
         </div>
         {% for image in page.images %}
-        <div class="row spacer">
-            <div class="col-md-12">
-                <div class="image-row">
-                    <img src="{{ image.image_path }}" data-action="zoom">
-                </div>
-                {% if image.caption %}
-                <div class="img-caption">
-                    <span>{{ image.caption }}</span>
-                </div>
-                {% endif %}
-            </div>
-        </div>
+          {% if image.cols == 12 %}
+              {% include post-col-12.html %}
+          {% else image.cols == 6 %}
+              {% cycle 'add row' : '<div class="row spacer hi">', nil %}
+                  {% include post-col-6.html %}
+              {% cycle 'end row' : nil, '</div>' %}
+          {% endif %}
         {% endfor %}
         <div class="row">
             <div class="col-md-3"></div>

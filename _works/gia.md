@@ -12,12 +12,24 @@ thumbnail_path: "/img/gia/thumb.png"
 layout: work
 bg-image: "/img/gia/img-0.png"
 images:
-- image_path: "/img/gia/img-1.png"
-- image_path: "/img/gia/img-2.png"
-- image_path: "/img/gia/img-3.png"
-- image_path: "/img/gia/img-4.png"
-- image_path: "/img/gia/img-5.png"
-- image_path: "/img/gia/img-6.png"
+- path: "/img/gia/img-1.png"
+  cols: 12
+  class: desktop
+- path: "/img/gia/img-2.png"
+  cols: 12
+  class: desktop
+- path: "/img/gia/img-3.png"
+  cols: 12
+  class: desktop
+- path: "/img/gia/img-4.png"
+  cols: 12
+  class: desktop
+- path: "/img/gia/img-5.png"
+  cols: 12
+  class: desktop
+- path: "/img/gia/img-6.png"
+  cols: 12
+  class: desktop
 credits:
 - job: Creative Director
   name: Internal
@@ -29,6 +41,5 @@ credits:
 - job: Web Dev
   name: Max Wolgrien
   url: http://www.earlier.io/
-press: 
+press:
 ---
-
