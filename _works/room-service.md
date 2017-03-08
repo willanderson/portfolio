@@ -21,7 +21,7 @@ images:
 - path: https://player.vimeo.com/external/207537745.hd.mp4?s=a224b3cfa5ef831ad051eb6dabdfda8764c618e6&profile_id=119
   caption: 
   cols: 12
-  class: desktop
+  class: video
 - path: "/uploads/launch-1.png"
   caption: The Manhattan splash page
   cols: 6
