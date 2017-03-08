@@ -38,7 +38,7 @@ images:
   caption: The Concierge splash page
   cols: 6
   class: desktop
-- path: "/uploads/card.jpg"
+- path: "/uploads/card.png"
   caption: Event collateral.
   cols: 12
   class: desktop
