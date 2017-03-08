@@ -1,9 +1,25 @@
-
+{% if image.class != 'video' %}
 <div class="col-md-6">
     <div class="image-row {{ image.class }}">
         <div class="padding">
             <div class="shadow">
                 <img src="{{ image.path }}" data-action="zoom">
+            </div>
+        </div>
+    </div>
+    {% if image.caption %}
+    <div class="img-caption">
+        <span>{{ image.caption }}</span>
+    </div>
+    {% endif %}
+</div>
+{% else %}
+<div class="col-md-6">
+    <div class="image-row {{ image.class }}">
+        <div class="padding">
+            <div class="post-video shadow">
+              <video class="post-video__video" autoplay="true" loop="true" muted="true">
+              <source src="{{ image.path }}" type="video/mp4">
             </div>
         </div>
     </div>
