@@ -18,9 +18,8 @@ images:
   caption: The full desktop experience.
   cols: 6
   class: desktop
-- path: "/img/room-service/img-3.png"
-  caption: Once we received assets back, I built a fully-functional desktop prototype
-    to optimize the site's pacing and story.
+- path: https://player.vimeo.com/external/207537745.hd.mp4?s=a224b3cfa5ef831ad051eb6dabdfda8764c618e6&profile_id=119
+  caption: 
   cols: 12
   class: desktop
 - path: "/uploads/launch-1.png"
