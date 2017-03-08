@@ -1,6 +1,6 @@
 ---
 title: Room Service
-date: 2015-10-15 00:00:00 Z
+date: 2015-10-14 17:00:00 -07:00
 name: Room Service
 url: http://everlane.com/room-service
 layout: work
@@ -18,12 +18,12 @@ images:
 - path: "/img/room-service/img-5.png"
   caption: The full desktop experience.
   cols: 6
-  class: desktop  
+  class: desktop
 - path: "/img/room-service/img-3.png"
   caption: Once we received assets back, I built a fully-functional desktop prototype
     to optimize the site's pacing and story.
   cols: 12
-  class: desktop  
+  class: desktop
 - path: "/img/room-service/img-4.png"
   caption: Print collateral was also developed for a post-launch event in San Francisco.
   cols: 12
@@ -36,7 +36,7 @@ images:
   caption: The final video, which was featured on the Everlane homepage and promoted
     across various marketing channels.
   cols: 12
-  class: desktop  
+  class: desktop
 ---
 
 Launching in October 2015, Room Service was a 4-week Pop-Up retail experience around Everlane's footwear.

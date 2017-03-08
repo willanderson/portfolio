@@ -1,6 +1,6 @@
 ---
 title: Everlabe x Gia Coppola
-date: 2016-07-04 00:00:00 Z
+date: 2016-07-03 17:00:00 -07:00
 tags:
 - Web
 - Interactive
@@ -41,5 +41,6 @@ credits:
 - job: Web Dev
   name: Max Wolgrien
   url: http://www.earlier.io/
-press:
+press: 
 ---
+

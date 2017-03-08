@@ -1,6 +1,6 @@
 ---
 title: Modern Oxford
-date: 2016-08-07 00:00:00 Z
+date: 2016-08-06 17:00:00 -07:00
 name: Modern Oxford
 url: http://everlane.com/modern-oxford
 thumbnail_path: "/img/oxford/thumb.jpg"
@@ -15,7 +15,7 @@ images:
 - path: "/img/oxford/img-3.png"
   cols: 12
   class: mobile
-- path: "https://player.vimeo.com/external/207240289.hd.mp4?s=5d38e3cfc988a2286b40fa2244279af3682d9aa0&profile_id=174"  
+- path: https://player.vimeo.com/external/207240289.hd.mp4?s=5d38e3cfc988a2286b40fa2244279af3682d9aa0&profile_id=174
   class: video
   cols: 12
 - path: "/img/oxford/img-5.jpg"
@@ -27,5 +27,6 @@ images:
 - path: "/img/oxford/img-4.png"
   cols: 12
   class: mobile
-layout: work  
+layout: work
 ---
+
