@@ -3,7 +3,6 @@ title: Room Service
 date: 2015-10-14 17:00:00 -07:00
 name: Room Service
 url: http://everlane.com/room-service
-layout: work
 thumbnail_path: "/img/room-service/thumb.jpg"
 bg-image: "/img/room-service/room-service-0.jpg"
 images:
@@ -24,9 +23,21 @@ images:
     to optimize the site's pacing and story.
   cols: 12
   class: desktop
-- path: "/img/room-service/img-4.png"
-  caption: Print collateral was also developed for a post-launch event in San Francisco.
-  cols: 12
+- path: "/uploads/launch-1.png"
+  caption: The Manhattan splash page
+  cols: 6
+  class: desktop
+- path: "/uploads/launch-2.png"
+  caption: The San Francisco splash page
+  cols: 6
+  class: desktop
+- path: "/uploads/launch-3.png"
+  caption: The Los Angeles splash page
+  cols: 6
+  class: desktop
+- path: "/uploads/launch-4.png"
+  caption: The Concierge splash page
+  cols: 6
   class: desktop
 - path: "/img/room-service/img-6.png"
   caption: Emails designed for the campaign.
@@ -37,6 +48,8 @@ images:
     across various marketing channels.
   cols: 12
   class: desktop
+Field name: 
+layout: work
 ---
 
 Launching in October 2015, Room Service was a 4-week Pop-Up retail experience around Everlane's footwear.
