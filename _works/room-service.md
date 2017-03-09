@@ -22,6 +22,10 @@ images:
   caption: 
   cols: 6
   class: video
+- path: "/uploads/room-service-9.jpg"
+  caption: 
+  cols: 12
+  class: desktop
 - path: "/uploads/launch-1.png"
   caption: The Manhattan splash page
   cols: 6
@@ -38,12 +42,12 @@ images:
   caption: The Concierge splash page
   cols: 6
   class: desktop
+- path: "/uploads/room-service-8.png"
+  caption: Emails designed for the campaign.
+  cols: 12
+  class: mobile
 - path: "/uploads/card.png"
   caption: Event collateral.
-  cols: 12
-  class: desktop
-- path: "/img/room-service/img-6.png"
-  caption: Emails designed for the campaign.
   cols: 12
   class: desktop
 - path: "/img/room-service/img-7.png"
