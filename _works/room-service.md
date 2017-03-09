@@ -59,4 +59,4 @@ Field name:
 layout: work
 ---
 
-Launching in October 2015, Room Service was a 4-week Pop-Up retail experience around Everlane's footwear.
+Launching in October 2015, Room Service was a 5-week Pop-Up retail experience around Everlane's footwear.
