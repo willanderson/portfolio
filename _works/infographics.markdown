@@ -22,6 +22,7 @@ images:
 - path: "/uploads/mobile-1.png"
   cols: 12
   class: mobile
+layout: work
 ---
 
 Everlane has a website. And on that website are products. And for each one of these products that we sell, all  2,181 of them, there is a product page. Pretty standard.
