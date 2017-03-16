@@ -25,18 +25,13 @@ defaults:
     images:
     - path:
       caption:
-      cols:
-      - '6'
-      - '12'
-      class:
-      - desktop
-      - mobile
-      - video
-    - credits:
+      cols: ["6", "12"]
+      class: ["desktop", "mobile", "video"]
+    credits:
       - job:
         name:
-    - press:
-        pub:
+    press:
+      - pub:
         url:
 url: http://willanderson.co
 show_drafts: true
