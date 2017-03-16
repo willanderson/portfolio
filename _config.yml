@@ -14,17 +14,17 @@ collections:
     permalink: "/work/:path/"
 defaults:
 - scope:
-    path: works
-    type: pages
+    path: "works"
+    type: ""
   values:
-    name: 
+    name:
     layout: work
     source: http://google.com
-    thumbnail_path: 
-    bg-image: 
+    thumbnail_path:
+    bg-image:
     images:
-    - path: 
-      caption: 
+    - path:
+      caption:
       cols:
       - '6'
       - '12'
@@ -33,10 +33,10 @@ defaults:
       - mobile
       - video
     - credits:
-      - job: 
-        name: 
+      - job:
+        name:
     - press:
-        pub: 
-        url: 
+        pub:
+        url:
 url: http://willanderson.co
 show_drafts: true
