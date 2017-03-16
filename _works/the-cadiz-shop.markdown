@@ -20,6 +20,10 @@ images:
   caption: Final desktop landing page.
   cols: 12
   class: desktop
+- path: https://player.vimeo.com/external/208698796.hd.mp4?s=ba590c32bf4a08a41f24391814c2983716dd7b91&profile_id=174
+  caption: 'The final product carousel '
+  cols: 12
+  class: video
 - path: "/uploads/img4.png"
   caption: Campaign email for the shop.
   cols: 12
