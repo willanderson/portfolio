@@ -28,11 +28,11 @@ defaults:
       cols: "6 or 12"
       class: "desktop, mobile or video"
     credits:
-      - job:
-        name:
-        url:
+    - job:
+      name:
+      url:
     press:
-      - pub:
-        url:
+    - pub:
+      url:
 url: http://willanderson.co
 show_drafts: true
