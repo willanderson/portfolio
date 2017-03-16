@@ -11,15 +11,21 @@ source: everlane.com/gia-coppola
 thumbnail_path: "/img/gia/thumb.png"
 bg-image: "/img/gia/img-0.png"
 images:
-- path: "/img/gia/img-1.png"
+- path: "/uploads/desktop.jpg"
   cols: 12
   class: desktop
-- path: "/img/gia/img-2.png"
-  cols: 12
+- path: "/uploads/framer.jpg"
+  cols: 6
   class: desktop
-- path: "/img/gia/img-3.png"
-  cols: 12
+- path: "/uploads/sketch.jpg"
+  cols: 6
   class: desktop
+- path: "/uploads/img-phone-2.png"
+  cols: 6
+  class: mobile
+- path: "/uploads/img-phone-1.png"
+  cols: 6
+  class: mobile
 - path: "/img/gia/img-4.png"
   cols: 12
   class: desktop
