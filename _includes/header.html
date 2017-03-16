@@ -1,4 +1,4 @@
-<header id="header">
+<header id="header" class="closed">
     <div class="wrapper">
         <div class="title_container">
             <a href="/" class="title">http://willanderson.co/</a>
@@ -13,7 +13,7 @@
             <a id="menuToggle" href="#">Menu</a>
         </nav>
     </div>
-    <div id="mobile_wrapper" class="hide">
+    <div id="mobile_wrapper">
         <div class="mobile_nav">
             <ul>
                 {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %} {% for p in navigation_pages %} {% if p.navigation_weight %}
