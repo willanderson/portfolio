@@ -15,7 +15,8 @@ collections:
 url: http://willanderson.co
 show_drafts: true
 defaults:
-  scope:
+  -
+    scope:
       path: "works"
       type: "pages"
     values:
