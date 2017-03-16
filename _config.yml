@@ -29,9 +29,9 @@ defaults:
         caption:
         cols: ["6","12"]
         class: ["desktop", "mobile", "video"]
-      credits:
+      - credits:
         - job:
           name:
-      press:
-        - pub:
-        - url:
+      - press:
+          pub:
+          url:
