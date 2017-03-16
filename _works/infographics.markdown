@@ -1,6 +1,11 @@
 ---
 title: Infographics
 date: 2016-08-10 00:00:00 -07:00
+tags:
+- mobile
+- ux
+- interactive
+- data visualization
 name: Infographics
 url: http://everlane.com
 thumbnail_path: "/uploads/thumb.jpg"
