@@ -9,7 +9,6 @@ tags:
 name: Everlabe x Gia Coppola
 source: everlane.com/gia-coppola
 thumbnail_path: "/img/gia/thumb.png"
-layout: work
 bg-image: "/img/gia/img-0.png"
 images:
 - path: "/img/gia/img-1.png"
@@ -27,6 +26,12 @@ images:
 - path: "/img/gia/img-5.png"
   cols: 12
   class: desktop
+- path: "/uploads/gia-video.jpg"
+  cols: 6
+  class: desktop
+- path: "/uploads/video-b0e54c.jpg"
+  cols: 6
+  class: desktop
 - path: "/img/gia/img-6.png"
   cols: 12
   class: desktop
@@ -42,5 +47,6 @@ credits:
   name: Max Wolgrien
   url: http://www.earlier.io/
 press: 
+layout: work
 ---
 
