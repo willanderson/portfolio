@@ -27,6 +27,9 @@ images:
 - path: "/img/oxford/img-4.png"
   cols: 12
   class: mobile
+- path: "/uploads/video.jpg"
+  cols: 12
+  class: desktop
 layout: work
 ---
 
