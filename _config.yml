@@ -14,3 +14,24 @@ collections:
     permalink: "/work/:path/"
 url: http://willanderson.co
 show_drafts: true
+defaults:
+  scope:
+      path: "works"
+      type: "pages"
+    values:
+      name:
+      layout: work
+      source: http://google.com
+      thumbnail_path:
+      bg-image:
+      images:
+      - path:
+        caption:
+        cols: [6,12]
+        class: ["desktop", "mobile", "video"]
+      credits:
+        - job:
+          name:
+      press:
+        - pub:
+        - url:

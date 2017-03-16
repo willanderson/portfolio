@@ -3,8 +3,8 @@
         <div class="col-md-12">
             <div class="image-row {{ image.class }}">
                 <div class="padding">
-                    <div class="shadow">
-                        <img src="{{ image.path }}" data-action="zoom">
+                    <div class="shadow image-row-item">
+                        <img class="image-row-item" src="{{ image.path }}" data-action="zoom">
                     </div>
                 </div>
             </div>
@@ -21,7 +21,7 @@
         <div class="image-row {{ image.class }}">
             <div class="padding">
                 <div class="post-video shadow">
-                  <video class="post-video__video" autoplay="true" loop="true" muted="true">
+                  <video class="post-video__video image-row-item" autoplay="true" loop="true" muted="true">
                   <source src="{{ image.path }}" type="video/mp4">
                 </div>
             </div>
