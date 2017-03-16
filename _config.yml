@@ -14,8 +14,8 @@ collections:
     permalink: "/work/:path/"
 defaults:
 - scope:
-    path: "works"
-    type: ""
+    path: ""
+    type: "works"
   values:
     name:
     layout: work
