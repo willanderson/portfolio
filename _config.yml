@@ -25,11 +25,12 @@ defaults:
     images:
     - path:
       caption:
-      cols: ["6", "12"]
-      class: ["desktop", "mobile", "video"]
+      cols: "6 or 12"
+      class: "desktop, mobile or video"
     credits:
       - job:
         name:
+        url:
     press:
       - pub:
         url:
