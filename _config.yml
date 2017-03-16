@@ -27,7 +27,7 @@ defaults:
       images:
       - path:
         caption:
-        cols: [6,12]
+        cols: ["6","12"]
         class: ["desktop", "mobile", "video"]
       credits:
         - job:
