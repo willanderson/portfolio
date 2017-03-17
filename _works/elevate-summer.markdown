@@ -26,7 +26,7 @@ images:
   class: mobile
 credits:
 - job: Art Direction
-  name: Internal
+  name: Quinn Cantwell
   url: 
 - job: Photographer
   name: Fahim Kassam
