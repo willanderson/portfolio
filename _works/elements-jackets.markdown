@@ -22,8 +22,8 @@ images:
   caption: 'A section of the desktop page focusing on the jacket''s core features. '
   cols: 12
   class: desktop
-- path: 
-  caption: https://player.vimeo.com/external/208938371.hd.mp4?s=48ddedfde5080579f2617c25714fe56e96f808e9&profile_id=119
+- path: https://player.vimeo.com/external/208938371.hd.mp4?s=48ddedfde5080579f2617c25714fe56e96f808e9&profile_id=119
+  caption: 
   cols: 12
   class: video
 - path: "/uploads/img-5.png"
