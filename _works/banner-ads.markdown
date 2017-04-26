@@ -25,7 +25,7 @@ images:
 - path: "/uploads/collection.jpg"
   caption: 
   cols: 12
-  class: image
+  class: desktop
 ---
 
 I'm sorry, but someone has to make them. 
