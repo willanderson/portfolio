@@ -22,6 +22,10 @@ images:
   caption: 
   cols: 12
   class: video
+- path: "/uploads/collection.jpg"
+  caption: 
+  cols: 12
+  class: image
 ---
 
 I'm sorry, but someone has to make them. 
