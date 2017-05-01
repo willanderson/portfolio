@@ -146,39 +146,23 @@ header .mobile {
 #mobile_wrapper {
   display: block;
   position: fixed;
+  opacity: 0;
+  display: none;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   background-color: #fff;
-  z-index: 2;
+  z-index: -1;
 }
 
 .mobile_nav {
   background-color: white;
   transition: all 5s ease-in;
-  height: 0px;
-  opacity: 0;
-}
-
-
-#mobile_wrapper {
-  transition: all 5s ease-in;
-  display: none;
-  opacity: 0;
-  height: 0px;
-}
-
-.active #mobile_wrapper {
-  display: block;
-  opacity: 1;
-}
-
-.active .mobile_nav {
   height: 100vh;
-  background-color: white;
   opacity: 1;
 }
+
 
 .mobile_nav ul {
   margin: 0;
@@ -210,13 +194,7 @@ header .mobile {
   text-decoration: none;
 }
 
-#turnOn {
-  z-index: 999;
-}
 
-#turnOn a {
-  margin-left: 0px;
-}
 
 
 nav a {
@@ -298,9 +276,14 @@ footer ul li a {
   height: 30px;
 }
 
+.window__wrapper {
+  overflow: hidden;
+}
+
 .window_img {
   width: 100%;
   height: auto;
+  transition: all 0.15s ease 0s;
 }
 
 .browser__dots {
@@ -341,6 +324,10 @@ footer ul li a {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
+}
+
+.scaleup {
+  transform: scale3d(1.05, 1.05, 1.05);
 }
 
 /*Selected Work*/

@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+<div class="container">
+    <!-- <div class="row">
+        <div class="filter col-md-12">
+            <span>Filter:</span>
+            <ul>
+                <li class="active">
+                    All
+                </li>
+                <li>
+                    Web
+                </li>
+                <li>
+                    Print
+                </li>
+                <li>
+                    Collateral
+                </li>
+            </ul>
+        </div>
+    </div> -->
+
+    {% for work in site.works %} {% assign loopindex = forloop.index | modulo: 2 %} {% if loopindex == 1 %}
+    <div class="row">
+        <div class="work_insert col-md-6">
+            <div class="browser">
+                <div class="browser__top">
+                    <span class="browser__dots"></span>
+                    <span class="browser__title">{{ work.name }}</span>
+                </div>
+                <a href="{{ work.url }}">
+                    <div class="window__wrapper">
+                        <div class="window">
+                            <img class="window_img" src="{{ work.thumbnail_path }}" />
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="work_title">
+                <h4><a href="{{ work.url }}">{{ work.name }}</a></h4>
+            </div>
+        </div>
+        {% else %}
+        <div class="work_insert col-md-6">
+            <div class="browser">
+                <div class="browser__top">
+                    <span class="browser__dots"></span>
+                    <span class="browser__title">{{ work.name }}</span>
+                </div>
+                <a href="{{ work.url }}">
+                    <div class="window__wrapper">
+                        <div class="window">
+                            <img class="window_img" src="{{ work.thumbnail_path }}" />
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="work_title">
+                <h4><a href="{{ work.url }}">{{ work.name }}</a></h4>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>
