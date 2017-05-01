@@ -22,6 +22,11 @@ images:
   caption: 
   cols: 12
   class: video
+'null':
+- job: 
+  name: 
+  url: 
+  pub: 
 ---
 
 I'm sorry, but someone has to make them. 
