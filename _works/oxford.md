@@ -1,6 +1,7 @@
 ---
 title: Modern Oxford
 date: 2016-08-06 17:00:00 -07:00
+position: 1
 name: Modern Oxford
 url: http://everlane.com/modern-oxford
 thumbnail_path: "/img/oxford/thumb.jpg"

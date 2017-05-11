@@ -6,6 +6,7 @@ tags:
 - Interactive
 - Video
 - Campaign
+position: 0
 name: Everlabe x Gia Coppola
 source: everlane.com/gia-coppola
 thumbnail_path: "/img/gia/thumb.png"
