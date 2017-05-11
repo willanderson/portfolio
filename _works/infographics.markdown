@@ -7,10 +7,11 @@ tags:
 - interactive
 - data visualization
 name: Infographics
-url: http://everlane.com
+source: http://everlane.com
 thumbnail_path: "/uploads/thumb.jpg"
 images:
 - path: "/uploads/mobiles.png"
+  caption: 
   cols: 12
   class: desktop
 - path: "/uploads/iterations-1.jpg"
@@ -22,6 +23,7 @@ images:
 - path: "/uploads/mobile-1.png"
   cols: 12
   class: mobile
+url: http://everlane.com
 layout: work
 ---
 
