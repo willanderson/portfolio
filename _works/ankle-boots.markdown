@@ -25,7 +25,7 @@ images:
   class: mobile
 - path: https://player.vimeo.com/external/217250854.hd.mp4?s=34ff31ad14864f7f7ebbd855094b3c5e7bece071&profile_id=119
   caption: Desktop site experience
-  cols: 1
+  cols: 12
   class: video
 - path: "/uploads/img-3-435ad4.jpg"
   caption: Desktop site
