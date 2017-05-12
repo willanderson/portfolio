@@ -3,7 +3,7 @@ title: Banner Ads
 date: 2016-02-03 12:55:00 -08:00
 categories:
 - digital marketing
-position: 8
+position: 9
 name: Banner Ads
 thumbnail_path: "/uploads/ads-thumb.jpg"
 images:
