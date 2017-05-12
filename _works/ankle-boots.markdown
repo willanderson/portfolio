@@ -62,7 +62,7 @@ images:
 credits:
 - job: Art Director
   name: Quinn Cantwell
-  url: www.quinncantwell.com
+  url: http://www.quinncantwell.com
 ---
 
 For Everlane, 2016 was the year of shoes. With a growing number of styles, as well as growing customer demand, we wanted to kick off the year big: two new styles that could complement any look, occasion, or attitude. The result was the duel launch of the Street and Modern Ankle Boot. 
