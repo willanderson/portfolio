@@ -68,3 +68,5 @@ credits:
 For Everlane, 2016 was the year of shoes. With a growing number of styles, as well as growing customer demand, we wanted to kick off the year big: two new styles that could complement any look, occasion, or attitude. The result was the duel launch of the Street and Modern Ankle Boot. 
 
 The site experience, and accompanying collateral, centered around this idea of duality. With a unique scrolling experience, a dynamic color palette, and a slew of visual styling, customers were taken through an engaging and unique launch experience that communicated both shoes's versatility and ease. 
+
+On a personal note, it was one my first experiences in motion design. In these pre-Framer days, I spent a good chunk of time both learning After Effects, and then tweaking key frames and animations. It was pretty hellish—a nice reminder of how far we've since come in terms of prototyping software. 
