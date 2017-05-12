@@ -65,6 +65,6 @@ credits:
   url: www.quinncantwell.com
 ---
 
-For Everlane, 2016 was the year of shoes. With a growing number of styles, as well as customer demand, we wanted to kick off the year right: two new styles that could compliment any look, occasion, or attitude. The result was the duel launch of the Street and Modern Ankle Boot. 
+For Everlane, 2016 was the year of shoes. With a growing number of styles, as well as growing customer demand, we wanted to kick off the year big: two new styles that could complement any look, occasion, or attitude. The result was the duel launch of the Street and Modern Ankle Boot. 
 
-The site experience, and accompanying collateral, centered around the idea of duality. With a unique scrolling experience, a dynamic color palette, and a slew of styling, customers were taken through an engaging and unique launch experience that communicated both shoes's versatility and ease. 
+The site experience, and accompanying collateral, centered around this idea of duality. With a unique scrolling experience, a dynamic color palette, and a slew of visual styling, customers were taken through an engaging and unique launch experience that communicated both shoes's versatility and ease. 
