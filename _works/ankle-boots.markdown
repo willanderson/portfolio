@@ -6,7 +6,7 @@ tags:
 - Footwear
 - Interactive
 - Launch
-position: 3
+position: 4
 name: Ankle Boots
 source: everlane.com/ankle-boots
 thumbnail_path: "/uploads/thumb-1336a7.jpg"
