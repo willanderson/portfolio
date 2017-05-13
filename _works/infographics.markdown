@@ -9,7 +9,7 @@ tags:
 position: 5
 name: Infographics
 source: http://everlane.com
-thumbnail_path: "/uploads/thumb-a100cf.jpg"
+thumbnail_path: "/uploads/infographic_desktop.png"
 images:
 - path: "/uploads/mobiles.png"
   caption: 
