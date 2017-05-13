@@ -1,5 +1,5 @@
 ---
-title: Everlabe x Gia Coppola
+title: Everlane x Gia Coppola
 date: 2016-07-03 17:00:00 -07:00
 tags:
 - Web
@@ -7,12 +7,13 @@ tags:
 - Video
 - Campaign
 position: 0
-name: Everlabe x Gia Coppola
+name: Everlane x Gia Coppola
 source: everlane.com/gia-coppola
 thumbnail_path: "/img/gia/thumb.png"
 bg-image: "/img/gia/img-0.png"
 images:
 - path: "/uploads/desktop.jpg"
+  caption: 
   cols: 12
   class: desktop
 - path: "/uploads/framer.jpg"
@@ -45,6 +46,7 @@ images:
 credits:
 - job: Creative Director
   name: Internal
+  url: 
 - job: Art Director
   name: Quinn Cantwell
 - job: Photography
@@ -53,7 +55,6 @@ credits:
 - job: Web Dev
   name: Max Wolgrien
   url: http://www.earlier.io/
-press: 
 layout: work
 ---
 
