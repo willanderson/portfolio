@@ -3,11 +3,12 @@ title: Modern Oxford
 date: 2016-08-06 17:00:00 -07:00
 position: 1
 name: Modern Oxford
-url: http://everlane.com/modern-oxford
+featured: true
 thumbnail_path: "/img/oxford/thumb.jpg"
 bg-image: "/img/oxford/img-0.jpg"
 images:
 - path: "/img/oxford/img-1.jpg"
+  caption: 
   cols: 12
   class: desktop
 - path: "/img/oxford/img-2.jpg"
@@ -31,6 +32,7 @@ images:
 - path: "/uploads/video.jpg"
   cols: 12
   class: desktop
+url: http://everlane.com/modern-oxford
 layout: work
 ---
 
