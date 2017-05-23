@@ -250,8 +250,29 @@ footer ul li a {
     font-size: 2.625rem;
     line-height: 4.25rem; }
 
+.index .browser {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.index .work_insert {
+  margin: 25px 0px;
+  filter: drop-shadow(0px 2px 3px #D3D3D3);
+}
+
+.index .browser {
+  overflow: visible !important;
+}
+
+.index .window__wrapper {
+  overflow: visible !important;
+}
 
 /*Feature section    */
+
+#workBrowser {
+  opacity: 0;
+}
 
 .feature_insert {
   display: flex;
@@ -320,14 +341,23 @@ footer ul li a {
 }
 
 .work_insert {
-  margin-top: 0;
+  margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
 }
 
-.scaleup {
-  transform: scale3d(1.05, 1.05, 1.05);
+.works .window__wrapper {
+  background-color: black;
+}
+
+.works .window {
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+}
+
+.works .window:hover {
+  opacity: .8;
 }
 
 /*Selected Work*/
@@ -360,6 +390,7 @@ li.active {
 }
 
 /*Work Page*/
+
 
 .post {
   background-color: white;

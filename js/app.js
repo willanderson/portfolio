@@ -1,20 +1,27 @@
 $(document).ready(function() {
 
+  setTimeout(fadeIn, 400);
+  function fadeIn() {
+    $('#workBrowser').velocity("transition.slideUpBigIn");
+  }
+
+
+
   var header_height = $("#header").outerHeight(true);
   $("section").css("padding-top", header_height);
 
-  // $("#menuToggle").click(function(){
-  //     $("header").toggleClass("active");
-  //     // $(".index").toggleClass("hide");
-  //     $('#menuToggle').html($('#menuToggle').text() == 'Close' ? 'Menu' : 'Close')
-  // })
+   $('#featured').slick({
+     asNavFor: '#titles',
+     fade: true
+   });
 
-  // Scape up work thumbnails on hover
-  $('.browser').hover(function() {
-      $(this).find('.window_img').addClass('scaleup');
-  }, function() {
-      $(this).find('.window_img').removeClass('scaleup');
-  });
+   $('#titles').slick({
+     arrows: false,
+     asNavFor: '#featured',
+     fade: true
+   });
+
+
 
   // Mobile menu
   $("#menuToggle").click(function() {

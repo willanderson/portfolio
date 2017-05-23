@@ -1,10 +1,45 @@
 ---
 layout: default
 ---
+<div class="container-fluid">
+    <div class="row intro">
+        <div class="col-md-12">
+            <div class="wrapper">
+                <div class="intro_insert">
+                    <div class="intro">
+                        <p>
+                            {{ page.intro }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </div>
 
-<main>
-    {% if page.show_intro %} {% include intro.html %} {% endif %}
-    <div class="content">
-        {{ content }}
-    </div>
-</main>
+  <div class="row">
+      <div id="workBrowser" class="work_insert col-md-12">
+          <div class="browser">
+              <div class="browser__top">
+                  <span class="browser__dots"></span>
+                  <div id="titles">
+                    {% for work in site.works %}
+                      {% if work.featured == true %}
+                          <span class="browser__title">{{ work.title }}</span>
+                      {% endif %}
+                    {% endfor %}
+
+                  </div>
+              </div>
+              <div class="window__wrapper">
+                  <div id="featured" class="window">
+                    {% for work in site.works %}
+                      {% if work.featured == true %}
+                          <a href="{{ work.url }}"><img src="{{ work.thumbnail_path }}" /></a>
+                      {% endif %}
+                    {% endfor %}
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
