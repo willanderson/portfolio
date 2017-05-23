@@ -1,8 +1,8 @@
 ---
 title: Room Service
-featured: true
 date: 2015-10-14 17:00:00 -07:00
 position: 2
+featured: true
 name: Room Service
 url: http://everlane.com/room-service
 thumbnail_path: "/img/room-service/thumb.jpg"
@@ -17,15 +17,15 @@ images:
   cols: 12
   class: desktop
 - path: https://player.vimeo.com/external/207537745.hd.mp4?s=a224b3cfa5ef831ad051eb6dabdfda8764c618e6&profile_id=119
-  caption:
+  caption: 
   cols: 6
   class: video
 - path: http://scontent.cdninstagram.com/t50.2886-16/12125889_895791407172938_939898811_n.mp4
-  caption:
+  caption: 
   cols: 6
   class: video
 - path: "/uploads/room-service-9.jpg"
-  caption:
+  caption: 
   cols: 12
   class: desktop
 - path: "/uploads/launch-1.png"
@@ -57,7 +57,7 @@ images:
     across various marketing channels.
   cols: 12
   class: desktop
-Field name:
+Field name: 
 layout: work
 ---
 
