@@ -19,15 +19,15 @@ images:
   caption: A prototype for an initial campaign concept.
   cols: 6
   class: desktop
-- path: "/uploads/img-4.jpg"
-  caption: 'A section of the desktop page focusing on the jacket''s core features. '
+- path: "/uploads/img-7.jpg"
+  caption: The desktop site experience
   cols: 12
   class: desktop
 - path: https://player.vimeo.com/external/208938371.hd.mp4?s=48ddedfde5080579f2617c25714fe56e96f808e9&profile_id=119
   caption: 
   cols: 12
   class: video
-- path: "/uploads/img-5.png"
+- path: "/uploads/img-8.png"
   caption: Campaign emails.
   cols: 12
   class: desktop
@@ -35,6 +35,10 @@ images:
   caption: Press booklet.
   cols: 12
   class: desktop
+- path: "/uploads/img-9.png"
+  caption: 
+  cols: 12
+  class: mobile
 credits:
 - job: Art Direction
   name: Internal
