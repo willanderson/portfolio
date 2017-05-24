@@ -4,6 +4,7 @@ date: 2016-08-06 17:00:00 -07:00
 position: 1
 name: Modern Oxford
 featured: true
+source: https://www.everlane.com/modern-oxford
 thumbnail_path: "/img/oxford/thumb.jpg"
 bg-image: "/img/oxford/img-0.jpg"
 images:
