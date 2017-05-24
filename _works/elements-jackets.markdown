@@ -30,7 +30,7 @@ images:
 - path: "/uploads/img-8.png"
   caption: Campaign emails.
   cols: 12
-  class: desktop
+  class: mobile
 - path: "/uploads/img-6.jpg"
   caption: Press booklet.
   cols: 12
