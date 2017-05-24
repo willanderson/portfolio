@@ -1,6 +1,6 @@
 ---
 title: Kaufmann Mercantile
-date: 2017-05-23 20:48:00 -07:00
+date: 2015-07-08 20:48:00 -07:00
 name: Kaufmann Mercantile
 featured: true
 source: http://kaufmann-mercantile.com
