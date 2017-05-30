@@ -194,11 +194,11 @@ header .mobile {
   text-decoration: none;
 }
 
-
-
-
 nav a {
   line-height: 40px;
+}
+
+nav a:nth-child(2) {
   margin-left: 1rem;
 }
 
@@ -241,7 +241,7 @@ footer ul li a {
 
 .intro_insert {
     display: flex;
-    height: 75vh;
+    min-height: 75vh;
     align-items: center;
     justify-content: center; }
 
