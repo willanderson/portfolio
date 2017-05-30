@@ -44,5 +44,12 @@ credits:
 - job: Art Director
   name: Dominick Volini
   url: http://www.dominickvolini.com/
+press:
+- pub: NYTimes
+  url: https://www.nytimes.com/2015/10/22/fashion/kaufmann-mercantile-astore-thats-strictly-one-to-a-customer.html?_r=0
+- pub: Tech Crunch
+  url: https://techcrunch.com/2014/11/20/kaufmann-mercantile-luxury-e-commerce-platform-lands-3-2-million-in-funding/
+- pub: Fast Company
+  url: https://news.fastcompany.com/ahalife-acquires-kaufmann-mercantile-4016628
 ---
 
