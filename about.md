@@ -39,9 +39,8 @@ social:
 - account: Twitter
   url: http://twitter.com/willanderson
 - account: LinkedIn
-  url: linkedin.com/in/wmaxand
+  url: http://linkedin.com/in/wmaxand
 - account: Github
   url: http://github.com/willanderson
 layout: about
 ---
-
