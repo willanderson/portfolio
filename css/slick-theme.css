@@ -79,38 +79,23 @@
 
 .slick-prev
 {
-    left: -32px;
+    left: -40px;
 }
 [dir='rtl'] .slick-prev
 {
-    right: -32px;
+    right: -40px;
     left: auto;
 }
-.slick-prev:before
-{
-    content: '←';
-}
-[dir='rtl'] .slick-prev:before
-{
-    content: '→';
-}
+
 
 .slick-next
 {
-    right: -32px;
+    right: -40px;
 }
 [dir='rtl'] .slick-next
 {
     right: auto;
-    left: -32px;
-}
-.slick-next:before
-{
-    content: '→';
-}
-[dir='rtl'] .slick-next:before
-{
-    content: '←';
+    left: -40px;
 }
 
 /* Dots */

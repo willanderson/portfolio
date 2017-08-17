@@ -251,7 +251,7 @@ footer ul li a {
     line-height: 4.25rem; }
 
 .index .browser {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -267,6 +267,25 @@ footer ul li a {
 .index .window__wrapper {
   overflow: visible !important;
 }
+
+.product-slider__arrow {
+  stroke: #1A1A1A;
+}
+
+.slick-prev {
+  transform: rotate(180deg);
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .index .browser {
+        width: 100%;
+    }
+    .slick-arrow {
+      display: none !important;
+    }
+}
+
 
 /*Feature section    */
 
