@@ -377,6 +377,26 @@ footer ul li a {
   opacity: .8;
 }
 
+.window__wrapper:focus {
+  outline: none;
+}
+
+#featured:focus {
+  outline: none;
+}
+
+#featured:focus {
+  outline: none;
+}
+
+.slick-slider:focus {
+  outline: none;
+}
+
+.slick-slide:focus {
+  outline: none;
+}
+
 /*Selected Work*/
 
 .filter {
