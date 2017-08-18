@@ -15,9 +15,9 @@
           {% if image.cols == 12 %}
               {% include post-col-12.html %}
           {% else image.cols == 6 %}
-              {% cycle 'add row' : '<div class="row spacer hi">', nil %}
+              {% cycle '<div class="row spacer hello">', '' %}
                   {% include post-col-6.html %}
-              {% cycle 'end row' : nil, '</div>' %}
+              {% cycle '', '</div>' %}
           {% endif %}
         {% endfor %}
         <div class="row">
@@ -46,7 +46,7 @@
                         </div>
                     </div>
                 </div>
-                {% if page.credits %}
+                {% if page.credits != '' %}
                 <div class="info">
                     <div class="row">
                         <div class="info--header col-md-4">
@@ -57,7 +57,7 @@
                          <h4>{{ credit.job }}</h4>
                         </div>
                         <div class="col-md-4">
-                          <p>{{ credit.name }}</p>
+                          <p><a href="{{ credit.url }}">{{ credit.name }}</a></p>
                         </div>
                         {% endfor %}
                     </div>
@@ -79,7 +79,7 @@
                     {% endfor %}
                 </div>
                 {% endif %}
-                {% if page.press %}
+                {% if page.press.size > 0 %}
                 <div class="info">
                     <div class="row">
                         <div class="info--header col-md-4">

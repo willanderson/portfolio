@@ -318,6 +318,8 @@ footer ul li a {
 
 .window__wrapper {
   overflow: hidden;
+  border: 1px solid #f8f8f8;
+  border-radius: 4px;
 }
 
 .window_img {
@@ -364,10 +366,6 @@ footer ul li a {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-}
-
-.works .window__wrapper {
-  background-color: black;
 }
 
 .works .window {
