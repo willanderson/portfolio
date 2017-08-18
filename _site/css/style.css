@@ -15,6 +15,11 @@ img {
   width: 100%;
 }
 
+.center {
+  display: flex;
+  align-items: center;
+}
+
 
 /*Site Layout*/
 
@@ -39,6 +44,13 @@ section {
 
 .spacer {
   margin: 3rem 0;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
 }
 
 
@@ -100,17 +112,15 @@ a:hover {
 
 header {
   z-index: 1;
-  height: 80px;
+  height: 60px;
   width: 100%;
-  background-color: hsla(0,0%,100%,.98);
+  background-color: white;
   position: fixed;
-  padding: 1rem 0;
-  border-bottom: 1px solid #FAF9F6;
-  top: 0;
-  left: 0 }
+  border-bottom: 1px solid #FAF9F6; }
 
 .title_container {
-  text-align: center; }
+  text-align: center;
+  margin-top: 10px; }
 
 .title {
   font-size: 1.145rem;
@@ -241,7 +251,7 @@ footer ul li a {
 
 .intro_insert {
     display: flex;
-    min-height: 75vh;
+    min-height: 55vh;
     align-items: center;
     justify-content: center; }
 
@@ -256,16 +266,18 @@ footer ul li a {
 }
 
 .index .work_insert {
-  margin: 25px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   filter: drop-shadow(0px 2px 3px #D3D3D3);
 }
 
 .index .browser {
-  overflow: visible !important;
+  overflow: hidden !important;
 }
 
 .index .window__wrapper {
-  overflow: visible !important;
+  overflow: hidden !important;
 }
 
 .product-slider__arrow {
@@ -291,6 +303,11 @@ footer ul li a {
 
 #workBrowser {
   opacity: 0;
+}
+
+.featured {
+  padding: 20px 0px;
+  margin: 25px;
 }
 
 .feature_insert {
@@ -362,10 +379,9 @@ footer ul li a {
 }
 
 .work_insert {
-  margin-top: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
+  margin: 0 auto;
+  max-height: calc(100vh - 70px);
+
 }
 
 .works .window {

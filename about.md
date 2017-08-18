@@ -40,8 +40,6 @@ social:
   url: http://twitter.com/willanderson
 - account: LinkedIn
   url: http://linkedin.com/in/wmaxand
-- account: Github
-  url: http://github.com/willanderson
+
 layout: about
 ---
-
