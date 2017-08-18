@@ -5,7 +5,7 @@ layout: default
 <div class="container">
   {% assign sorted_work = site.works | sort:"position" %}
     {% for work in sorted_work %} {% assign loopindex = forloop.index | modulo: 2 %} {% if loopindex == 1 %}
-    <div class="row">
+    <div class="row spacer">
         <div class="work_insert col-md-6">
             <a href="{{ work.url }}">
                 <div class="window__wrapper">
