@@ -47,7 +47,12 @@ section {
 }
 
 .row-space {
-  margin-top: 32px !important;
+  margin-bottom: 32px !important;
+}
+
+.bottom-space {
+  margin-top: 40px !important;
+  margin-bottom: 32px !important;
 }
 
 .row-eq-height {

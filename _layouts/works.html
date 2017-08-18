@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="container">
+<div class="container bottom-space">
   {% assign sorted_work = site.works | sort:"position" %}
     {% for work in sorted_work %} {% assign loopindex = forloop.index | modulo: 2 %} {% if loopindex == 1 %}
     <div class="row">
