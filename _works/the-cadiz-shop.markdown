@@ -3,6 +3,7 @@ title: The Cádiz Shop
 date: 2016-11-10 09:58:00 -08:00
 position: 7
 name: Cádiz Shop
+featured: true
 source: http://everlane.com/cadiz-shop
 thumbnail_path: "/uploads/thumb-30d872.jpg"
 bg-image: "/uploads/img0.jpg"
