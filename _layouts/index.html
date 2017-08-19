@@ -2,43 +2,30 @@
 layout: default
 ---
 
-<div class="container-fluid">
-  <div class="row intro">
-    <div class="col-md-12">
-        <div class="intro_insert">
-            <div class="intro">
-                <p>
-                    {{ page.intro }}
-                </p>
+<div class="intro center-all">
+    <div class="p-wrapper">
+        <p>{{ page.intro }}</p>
+    </div>
+</div>
+
+  <div class="work center-all">
+    <div class="featured-wrapper">
+        <div class="featured-items">
+          {% for work in site.works %}
+            {% if work.featured == true %}
+            <div class="item">
+                <div class="browser__top">
+                    <span class="browser__dots"></span>
+                    <div id="titles">
+                        <span class="browser__title">{{work.title }}</span>
+                    </div>
+                </div>
+                <div class="window__wrapper">
+                    <a href="{{ work.url }}"><img src="{{ work.thumbnail_path }}"></a>
+                </div>
             </div>
+            {% endif %}
+          {% endfor %}
         </div>
     </div>
-  </div>
-
-  <div class="row featured">
-      <div id="workBrowser" class="work_insert col-md-12">
-          <div class="browser">
-              <div class="browser__top">
-                  <span class="browser__dots"></span>
-                  <div id="titles">
-                    {% for work in site.works %}
-                      {% if work.featured == true %}
-                          <span class="browser__title">{{ work.title }}</span>
-                      {% endif %}
-                    {% endfor %}
-
-                  </div>
-              </div>
-              <div class="window__wrapper">
-                  <div id="featured" class="window">
-                    {% for work in site.works %}
-                      {% if work.featured == true %}
-                          <a href="{{ work.url }}"><img src="{{ work.thumbnail_path }}" /></a>
-                      {% endif %}
-                    {% endfor %}
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
 </div>

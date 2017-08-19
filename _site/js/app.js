@@ -5,7 +5,21 @@ $(document).ready(function() {
     $('#workBrowser').velocity("transition.slideUpBigIn");
   }
 
-
+  $('.featured-items').slick({
+      centerMode: true,
+      slidesToShow: 1,
+      centerPadding: '16%',
+      arrows: true,
+      dots: false,
+      responsive: [ {
+          breakpoint: 680,
+          settings: {
+              dots: true,
+              slidesToShow: 1,
+              centerPadding: '0'
+          }
+      }]
+  });
 
   var header_height = $("#header").outerHeight(true);
   $("section").css("padding-top", header_height);
