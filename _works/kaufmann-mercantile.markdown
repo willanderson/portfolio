@@ -3,7 +3,7 @@ title: Kaufmann Mercantile
 date: 2015-07-08 20:48:00 -07:00
 position: 5
 name: Kaufmann Mercantile
-featured: true
+featured: false
 source: http://kaufmann-mercantile.com
 thumbnail_path: "/uploads/img1-f03eb8.jpg"
 bg-image: "/uploads/subhero.jpg"
