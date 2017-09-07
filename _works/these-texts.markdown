@@ -4,7 +4,7 @@ date: 2017-08-30 15:17:00 -07:00
 name: These Texts
 featured: true
 source: http://thesetexts.com/
-thumbnail_path: "/uploads/thumb-6734d1.jpg"
+thumbnail_path: "/uploads/thumb-b0bec6.jpg"
 images:
 - path: "/uploads/img0-f992b5.jpg"
   caption: 
