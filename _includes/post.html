@@ -15,7 +15,7 @@
           {% if image.cols == 12 %}
               {% include post-col-12.html %}
           {% else image.cols == 6 %}
-              {% cycle '<div class="row spacer">', '' %}
+              {% cycle '<div class="row row-eq-height twoup spacer">', '' %}
                   {% include post-col-6.html %}
               {% cycle '', '</div>' %}
           {% endif %}

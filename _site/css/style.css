@@ -66,12 +66,24 @@ section {
   margin-bottom: 32px !important;
 }
 
-.row-eq-height {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
+@media (min-width: 768px) {
+  .row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 3rem;
+  }
 }
+
+@media (max-width: 768px) {
+  .twoup .col-md-6:nth-child(2) {
+    margin-top: 3rem;
+  }
+}
+
+
+
 
 
 /* Sidewide Typography*/
@@ -481,6 +493,7 @@ li.active {
   min-height: 550px;
   display: flex;
   align-items: center;
+  height: 100%;
 }
 
 .image-row .shadow {
