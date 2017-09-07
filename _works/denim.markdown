@@ -3,7 +3,7 @@ title: Denim
 date: 2017-09-07 12:41:00 -07:00
 name: Denim
 featured: true
-source: http://everlane.com/denim
+source: https://www.everlane.com/denim
 thumbnail_path: "/uploads/thumb-compressor.jpg"
 bg-image: "/uploads/bg-compressor.jpg"
 images:
@@ -66,5 +66,18 @@ credits:
 - job: Video production
   name: Najeeb Tarazi
   url: http://www.najeebtarazi.com/
+press:
+- pub: Vogue.com
+  url: https://www.vogue.com/article/everlane-launching-jeans
+- pub: Observer
+  url: http://observer.com/2017/09/everlane-denim-collection-sustainable/
+- pub: Esquire
+  url: http://www.esquire.com/style/mens-fashion/news/a57185/everlane-denim-jeans-launch/
+- pub: Refinery29
+  url: http://www.refinery29.com/2017/08/169328/everlane-denim-launch-new-jeans-styles
+- pub: HuffPost
+  url: http://www.huffingtonpost.com/entry/everlane-denim-jeans_us_59aeb88fe4b0354e440cab53
+- pub: NYMag
+  url: https://www.thecut.com/2017/09/everlane-new-denim-jeans-review.html
 ---
 
