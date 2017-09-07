@@ -7,7 +7,7 @@ source: https://www.everlane.com/denim
 thumbnail_path: "/uploads/thumb-compressor.jpg"
 bg-image: "/uploads/bg-compressor.jpg"
 images:
-- path: "/uploads/img0-compressor.jpg"
+- path: "/uploads/img0-compressor-586ad1.jpg"
   caption: 'Process, process, process. '
   cols: 12
   class: desktop
