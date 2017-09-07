@@ -24,6 +24,10 @@ images:
   caption: The Denim Factory mobile landing page
   cols: 6
   class: mobile
+- path: https://player.vimeo.com/external/232878410.hd.mp4?s=55858139afe13fa7eff34043c2be0b8597bea3b0&profile_id=169
+  caption: Full scroll experience for the denim factory landing page
+  cols: 12
+  class: video
 - path: "/uploads/img6-compressor.png"
   caption: The Denim hype mobile landing page
   cols: 6
@@ -36,6 +40,10 @@ images:
   caption: 'On September 6, we shut our entire website down in anticipation for denim. '
   cols: 12
   class: desktop
+- path: https://player.vimeo.com/external/232875188.hd.mp4?s=6e79f702554fc5a05ef5368bb915d8dff4ea5235&profile_id=174
+  caption: 
+  cols: 12
+  class: video
 - path: "/uploads/img8-compressor.png"
   caption: 'The hype campaign ran for three weeks, and brought customers to an immersive
     web experience where they could preview the styles and watch the campaign videos. '
@@ -54,18 +62,6 @@ images:
   caption: 'Marketing emails and social collateral from the hype campaign.  '
   cols: 12
   class: desktop
-- path: https://player.vimeo.com/external/232875188.hd.mp4?s=6e79f702554fc5a05ef5368bb915d8dff4ea5235&profile_id=174
-  caption: 
-  cols: 12
-  class: video
-- path: https://player.vimeo.com/external/232878410.hd.mp4?s=55858139afe13fa7eff34043c2be0b8597bea3b0&profile_id=169
-  caption: Full scroll experience for the denim factory landing page
-  cols: 12
-  class: video
-- path: 
-  caption: 
-  cols: 
-  class: 
 credits:
 - job: Video production
   name: Najeeb Tarazi
