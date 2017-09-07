@@ -81,3 +81,10 @@ press:
   url: https://www.thecut.com/2017/09/everlane-new-denim-jeans-review.html
 ---
 
+The largest scale, most ambitious launch in Everlane's young history: Denim. It took two years to develop the product itself, and another four months of prep, concepting, and execution to launch it. 
+
+It wasn't just another product launch. Denim represented an entirely new category for Everlane. And it wasn't just any category; denim is fundamental—to culture, to everyday wardrobes, to fashion and style across the world. So we came up with a plan: launch a 3-week hype campaign that teased the product, educated the consumer, and generated enormous momentum around the launch date. 
+
+The digital product strategy from the beginning always centered around clarity. The campaign itself would stretch across multiple channels (outdoor advertising, digital marketing, email & social campaigns, video content), and I aimed to build one digital hub that was flexible enough to communicate these various messages, while also nimble enough to make sense to any customer (new, existing, superfan) at any point in which they stumbled across the campaign. 
+
+The result was a dedicated teaser page (which evolved week from week), a redesigned shopping experience based on weeks of user testing, and an immersive factory site that took customers inside our denim making process. 
