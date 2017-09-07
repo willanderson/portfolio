@@ -82,10 +82,12 @@ press:
   url: https://www.thecut.com/2017/09/everlane-new-denim-jeans-review.html
 ---
 
-The largest scale, most ambitious launch in Everlane's young history: Denim. It took two years to develop the product itself, and another four months of prep, concepting, and execution to launch it. 
+The largest scale, most ambitious launch in Everlane's young history: Denim. It took 2 years to develop the product itself, and another 4 months of prep, concepting, and execution to release it. 
 
-It wasn't just another product launch. Denim represented an entirely new category for Everlane. And it wasn't just any category; denim is fundamental—to culture, to everyday wardrobes, to fashion and style across the world. So we came up with a plan: launch a 3-week hype campaign that teased the product, educated the consumer, and generated enormous momentum around the launch date. 
+Denim represented an entirely new category for Everlane. And not just any category; denim is fundamental—to culture, to history, to everyday wardrobes across the world. So we wanted to mark the occasion by building out the loudest and most evocative launch our little team possibly could.
 
-The digital product strategy from the beginning always centered around clarity. The campaign itself would stretch across multiple channels (outdoor advertising, digital marketing, email & social campaigns, video content), and I aimed to build one digital hub that was flexible enough to communicate these various messages, while also nimble enough to make sense to any customer (new, existing, superfan) at any point in which they stumbled across the campaign. 
+Everything—the digital and print and social and out-of-home marketing—centered around one idea: we've made denim you can get behind. It's priced fairly; it's designed thoughtfully; and, unlike 99% of denim out there, it doesn't fuck up the planet to make it. 
 
-The result was a dedicated teaser page (which evolved week from week), a redesigned shopping experience based on weeks of user testing, and an immersive factory site that took customers inside our denim making process. 
+I worked with our creative, marketing, and EPD teams to build out a 3-week interactive site to both hype the product and reiterate our core messages. Along with 2 teaser videos, the site evolved week-to-week, panning out to reveal more details and story as the launch grew nearer. We topped off the experience by designing an entirely new shopping experience on Everlane.com (we're calling it the Denim Shop) and also launching an immersive factory site that took customers inside our denim making process. It's by far the most in-depth factory story we've ever produced.
+
+OK go buy some denim now. 
