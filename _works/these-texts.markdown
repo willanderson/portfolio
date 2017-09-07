@@ -13,7 +13,7 @@ images:
 - path: "/uploads/img1.png"
   caption: 'When I originally had my idea for the website, I began taking screenshots
     of texts and saving them on my phone.   '
-  cols: 
+  cols: 12
   class: desktop
 - path: "/uploads/img2-c57c7c.jpg"
   caption: 
