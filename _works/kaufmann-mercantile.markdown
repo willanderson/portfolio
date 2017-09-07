@@ -1,7 +1,7 @@
 ---
 title: Kaufmann Mercantile
 date: 2015-07-08 20:48:00 -07:00
-position: 5
+position: 7
 name: Kaufmann Mercantile
 featured: false
 source: http://kaufmann-mercantile.com
