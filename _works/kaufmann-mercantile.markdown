@@ -6,17 +6,17 @@ name: Kaufmann Mercantile
 featured: false
 source: http://kaufmann-mercantile.com
 thumbnail_path: "/uploads/img1-f03eb8.jpg"
-bg-image: "/uploads/subhero.jpg"
+bg-image: "/uploads/subhero-compressor.jpg"
 images:
-- path: "/uploads/img2.png"
+- path: "/uploads/img2-compressor.png"
   caption: 
   cols: 12
   class: desktop
-- path: "/uploads/img3-168edb.jpg"
+- path: "/uploads/img3-compressor-c3e142.jpg"
   caption: 
   cols: 6
   class: desktop
-- path: "/uploads/img3.5.jpg"
+- path: "/uploads/fieldnotes-compressor.jpg"
   caption: 
   cols: 6
   class: desktop
@@ -28,7 +28,7 @@ images:
   caption: 
   cols: 6
   class: desktop
-- path: "/uploads/img5.jpg"
+- path: "/uploads/img5-compressor-b8c4de.jpg"
   caption: 
   cols: 6
   class: desktop
@@ -36,7 +36,7 @@ images:
   caption: 
   cols: 12
   class: desktop
-- path: "/uploads/img7.png"
+- path: "/uploads/img7-compressor-fede8c.png"
   caption: 
   cols: 12
   class: mobile
