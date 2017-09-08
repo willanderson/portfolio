@@ -1,0 +1,12 @@
+<meta property="og:type" name="og:type" content="website">
+<meta property="og:url" name="og:url" content="https://www.willanderson.co">
+{% if page.bg-image %}
+  <meta content="{{ page.bg-image }}" property="og:image">
+{% else %}
+  <meta content="/assets/ogimage.jpg" property="og:image">
+{% endif %}
+{% if page.name %}
+  <meta property="og:site_name" name="og:site_name" content="{{page.name}} by Will Anderson">
+{% else %}
+    <meta property="og:site_name" name="og:site_name" content="Will Anderson">
+{% endif %}
