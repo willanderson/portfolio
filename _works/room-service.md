@@ -1,7 +1,7 @@
 ---
 title: Room Service
 date: 2015-10-14 17:00:00 -07:00
-position: 4
+position: 5
 featured: true
 name: Room Service
 url: http://everlane.com/room-service
