@@ -15,7 +15,7 @@ images:
   caption: 'When I originally had my idea for the website, I began taking screenshots
     of texts and saving them on my phone.   '
   cols: 12
-  class: desktop
+  class: mobile
 - path: "/uploads/img2-c57c7c.jpg"
   caption: 
   cols: 12
@@ -50,6 +50,6 @@ At some point, I decided it might look interesting to put a collection of my tex
 
 Almost a year after having this thought cross my mind (and a couple days before the domain I had purchased would expire), I decided to do it. 
 
-Everything was pretty simple to design and build. The hardest part was getting the little carrot around the chat bubbles to look right, and getting the dates to dynamically format based correctly. Oh, and figuring out how to download all my text messages into a .txt file so I didn't have to retype everything. That took awhile. 
+Everything was pretty simple to design and build. The hardest part was getting the little carrot on the chat bubbles to look right, and getting the dates to dynamically format correctly. Oh, and figuring out how to download all my text messages into a .txt file so I didn't have to retype everything. That took awhile. 
 
 I'm using Jekyll to generate the site, and Siteleaf for the CMS. 
