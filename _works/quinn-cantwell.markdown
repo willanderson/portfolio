@@ -7,7 +7,7 @@ featured: true
 source: http://quinncantwell.com
 thumbnail_path: "/uploads/thumb-ea8ca0.jpg"
 images:
-- path: "/uploads/img0-5441a7.jpg"
+- path: "/uploads/img0-compressor%20(1).jpg"
   caption: 
   cols: 12
   class: desktop
@@ -15,19 +15,19 @@ images:
   caption: Initial site wireframes
   cols: 6
   class: desktop
-- path: "/uploads/img2-80a619.jpg"
+- path: "/uploads/img2-compressor-9cee51.jpg"
   caption: 
   cols: 6
   class: desktop
-- path: "/uploads/img3.png"
+- path: "/uploads/img3-compressor.png"
   caption: 
   cols: 12
   class: desktop
-- path: "/uploads/img4-465d92.png"
+- path: "/uploads/img4-compressor-80f5ff.png"
   caption: 
   cols: 12
   class: desktop
-- path: "/uploads/img5-c8ec02.png"
+- path: "/uploads/img5-compressor.png"
   caption: 
   cols: 6
   class: desktop
@@ -35,7 +35,7 @@ images:
   caption: 
   cols: 6
   class: desktop
-- path: "/uploads/img8.png"
+- path: "/uploads/img8-compressor-57455a.png"
   caption: 
   cols: 6
   class: mobile
