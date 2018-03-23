@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<div class="ph3 ph4-l">
+  <h1 class="f1 normal pv4 almost-black">Projects</h1>
+</div>
+
+
+<div class="mb4 ph3 ph4-l min-vh-100">
+    <div class="grid are-images-unloaded">
+        <div class="grid__col-sizer"></div>
+        <div class="grid__gutter-sizer"></div>
+        {% for article in site.works %} {% include grid-block.html %} {% endfor %}
+    </div>
+</div>

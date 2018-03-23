@@ -2,30 +2,8 @@
 layout: default
 ---
 
-<div class="intro center-all">
-    <div class="p-wrapper">
-        <p>{{ page.intro }}</p>
-    </div>
-</div>
-
-  <div class="work center-all">
-    <div class="featured-wrapper">
-        <div class="featured-items">
-          {% for work in site.works %}
-            {% if work.featured == true %}
-            <div class="item">
-                <div class="browser__top">
-                    <span class="browser__dots"></span>
-                    <div id="titles">
-                        <span class="browser__title">{{work.title }}</span>
-                    </div>
-                </div>
-                <div class="window__wrapper">
-                    <a href="{{ work.url }}"><img src="{{ work.thumbnail_path }}"></a>
-                </div>
-            </div>
-            {% endif %}
-          {% endfor %}
-        </div>
-    </div>
+<div class="bg-almost-white flex items-center center">
+    <p class="f1 ph5-l ph3 pv6-l pv2 dib lh-copy">
+        {{ page.intro }}
+    </p>
 </div>

@@ -17,60 +17,23 @@
 
     <title>Infographics</title>
     <link rel="shortcut icon" type="image/png" href="/assets/fav.png"/>
-    <link href="/css/normalize.css" rel="stylesheet">
-    <link rel="stylesheet" type "text/css" href="/css/bootstrap/bootstrap.min.css">
-    <link href="/css/zoom.css" rel="stylesheet">
-    <link rel="stylesheet" type "text/css" href="/css/slick.css">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>
     <link rel="stylesheet" type "text/css" href="/css/style.css">
-    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-    <script src="/js/zoom.js"></script>
-    <script type="text/javascript" src="/js/velocity.min.js"></script>
-<script type="text/javascript" src="/js/velocity.ui.js"></script>
-    <script src="/js/footer-reveal.min.js"></script>
-    <script src="/js/slick.min.js"></script>
-    <script src="/js/app.js"></script>
+
 </head>
 
 <body>
 
-  <header id="header" class="closed">
-    <div class="wrapper">
-        <div class="title_container">
-            <a href="/" class="title">http://willanderson.co/</a>
-        </div>
-        <nav class="desktop">
-                
-            <a href="/about/" >
-                    About
-                </a>   
-            <a href="/work/" >
-                    Work
-                </a>  
-        </nav>
-        <nav class="mobile">
-            <a id="menuToggle" href="javascript:;">Menu</a>
-        </nav>
-    </div>
-    <div id="mobile_wrapper">
-        <div class="mobile_nav">
-            <ul>
-                    
-                <li>
-                    <a href="/about/" class="underline">
-                  About
-              </a>
-                </li>
-                  
-                <li>
-                    <a href="/work/" class="underline">
-                  Work
-              </a>
-                </li>
-                 
-            </ul>
-        </div>
-    </div>
+  <header>
+  <nav class="w-auto border-box ph3 ph4-l h3 flex items-center almost-black bg-white bb b--light-gray">
+      <div class="db dtc-l v-mid w-auto tr absolute">
+          <a class="f6 link off-grey mr3 darken" href="/writing" title="Work">About</a>
+          <a class="f6 link off-grey mr3 darken" href="/archive" title="Work">Projects</a>
+      </div>
+      <a class="db link off-black f5 mr-auto ml-auto tc" href="/" title="Home">
+          <span class="almost-black">http://willanderson.co/</span><span class="light-silver">Infographics</span>
+      </a>
+  </nav>
 </header>
 
   <section class="work">
@@ -244,7 +207,13 @@
 
   </section>
 
-  
+  <footer class="pv5 ph3 ph4-l pv2 f6 off-grey bt b--light-gray" id="footer">
+    <a class="link underline off-grey mr3 darken" href="mailto:wmaxand@gmail.com" target="_blank">wmaxand@gmail.com</a>
+    <a class="link underline off-grey mr3 darken" href="http://www.instagram.com/willanderson" target="_blank">Instagram</a>
+    <a class="link underline off-grey mr3 darken" href="http://www.twitter.com/willanderson" target="_blank">Twitter</a>
+    <a class="link underline off-grey mr3 darken" href="http://www.linkedin.com/in/wmaxand" target="_blank">LinkedIn</a>
+</footer>
+
 
 
   <script>
@@ -257,4 +226,7 @@
   ga('send', 'pageview');
 </script>
 </body>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="/js/app.js"></script>
 </html>

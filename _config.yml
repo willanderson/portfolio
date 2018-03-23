@@ -1,5 +1,5 @@
 ---
-title: Will Anderson
+title: http://willanderson.co/
 timezone: America/Los_Angeles
 collections:
   posts:
@@ -17,23 +17,23 @@ defaults:
     path: ''
     type: works
   values:
-    name: 
+    name:
     featured: false
     layout: work
     source: http://google.com
-    thumbnail_path: 
-    bg-image: 
+    thumbnail_path:
+    bg-image:
     images:
-    - path: 
-      caption: 
+    - path:
+      caption:
       cols: 6 or 12
       class: desktop, mobile or video
     credits:
-    - job: 
-      name: 
-      url: 
+    - job:
+      name:
+      url:
     press:
-    - pub: 
-      url: 
+    - pub:
+      url:
 url: http://willanderson.co
 show_drafts: true

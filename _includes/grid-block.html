@@ -1,0 +1,11 @@
+<div class="grid__item pa3 bg-almost-white">
+  <div class="inner">
+    <div class="top mb3"><a target="_blank" href="{{ article.source}}"><img class="w-100 bw" src="{{ article.image }}" /></a></div>
+    <div class="bottom flex flex-column">
+      <span class="sans-serif f7 ttu">{{article.categories}}</span>
+      <span class="sans-serif f3 mv2"><a target="_blank" href="{{ article.source}}" class="normal off-black dim lh-solid no-underline"> {{ article.title }}</a></span>
+      <span class="sans-serif f6 off-black lh-copy">{{ article.content }}</span>
+      <span class="sans-serif f7 light-silver mt3">Published on {{ article.date | date: "%b %-d %Y" }}</span>
+    </div>
+  </div>
+</div>
