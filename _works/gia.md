@@ -7,10 +7,10 @@ tags:
 - Video
 - Campaign
 position: 3
-featured: true
 name: Everlane x Gia Coppola
+featured: true
 source: everlane.com/gia-coppola
-thumbnail_path: "/img/gia/thumb.png"
+thumbnail_path: "/uploads/Thumb-4.jpg"
 bg-image: "/img/gia/img-0.png"
 images:
 - path: "/uploads/desktop.jpg"
