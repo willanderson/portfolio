@@ -9,7 +9,7 @@ tags:
 position: 7
 name: Ankle Boots
 source: everlane.com/ankle-boots
-thumbnail_path: "/uploads/thumb-1336a7.jpg"
+thumbnail_path: "/uploads/Thumb-8.jpg"
 bg-image: "/uploads/img-0-c599a9.jpg"
 images:
 - path: "/uploads/img-1.png"
