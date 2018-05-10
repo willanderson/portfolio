@@ -6,7 +6,7 @@ tags:
 position: 11
 name: Elevate Summer
 source: http://everlane.com/sandals
-thumbnail_path: "/uploads/thumb-d812b3.jpg"
+thumbnail_path: "/uploads/Thumb-10.jpg"
 bg-image: "/uploads/img-0.jpg"
 images:
 - path: "/uploads/img-3.jpg"
