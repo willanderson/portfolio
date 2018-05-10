@@ -5,7 +5,7 @@ position: 10
 name: Cádiz Shop
 featured: true
 source: http://everlane.com/cadiz-shop
-thumbnail_path: "/uploads/thumb-30d872.jpg"
+thumbnail_path: "/uploads/Thumb-11.jpg"
 bg-image: "/uploads/img0.jpg"
 images:
 - path: "/uploads/img2.jpg"
