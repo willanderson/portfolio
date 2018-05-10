@@ -2,10 +2,9 @@
 title: Room Service
 date: 2015-10-14 17:00:00 -07:00
 position: 5
-featured: true
 name: Room Service
-url: http://everlane.com/room-service
-thumbnail_path: "/img/room-service/thumb.jpg"
+featured: true
+thumbnail_path: "/uploads/Thumb-6.jpg"
 bg-image: "/img/room-service/room-service-0.jpg"
 images:
 - path: "/img/room-service/img-1.png"
@@ -57,6 +56,7 @@ images:
     across various marketing channels.
   cols: 12
   class: desktop
+url: http://everlane.com/room-service
 Field name: 
 layout: work
 ---
