@@ -5,7 +5,7 @@ position: 0
 name: Denim
 featured: true
 source: https://www.everlane.com/denim
-thumbnail_path: "/uploads/thumb-compressor.jpg"
+thumbnail_path: "/uploads/Thumb-2.jpg"
 bg-image: "/uploads/bg-compressor.jpg"
 images:
 - path: "/uploads/img0-compressor-586ad1.jpg"
