@@ -2,13 +2,12 @@
 title: About
 permalink: "/about/"
 navigation_weight: 1
-intro: I'm a visual designer with a focus on interactive design, UI/UX, and digital
-  storytelling. I've been on the Creative Team at Everlane since 2015, where I've
-  helped develop and evolve our launch landing pages, digital products, and interactive
-  campaigns. I'm currently based in San Francisco, CA.
+intro: 'I''m a designer that''s really into the web. I specialize in user-centric
+  design,  e-commerce strategy, and design systems. I''m currently on the Digital
+  Product team at Everlane. '
 background:
 - company: Everlane
-  title: Graphic Designer
+  title: Digital Design
   description: Concept, design and execute campaigns and interactive experiences around
     Everlane's marquee product and brand stories.
 - company: Madewell
