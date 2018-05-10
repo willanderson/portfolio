@@ -9,7 +9,7 @@ tags:
 position: 9
 name: Infographics
 source: http://everlane.com
-thumbnail_path: "/uploads/thumb0.jpg"
+thumbnail_path: "/uploads/Thumb-9.jpg"
 images:
 - path: "/uploads/mobiles.png"
   caption: 
