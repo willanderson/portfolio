@@ -4,9 +4,9 @@ date: 2016-02-03 12:55:00 -08:00
 categories:
 - digital marketing
 position: 13
-featured: false
 name: Banner Ads
-thumbnail_path: "/uploads/ads-thumb.jpg"
+featured: false
+thumbnail_path: "/uploads/Thumb-12.jpg"
 images:
 - path: https://player.vimeo.com/external/214904456.hd.mp4?s=2b86937b717bf8b731efbae654099b8de8660b26&profile_id=119
   caption: 
