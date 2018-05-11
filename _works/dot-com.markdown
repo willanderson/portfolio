@@ -1,7 +1,7 @@
 ---
 title: Dot Com
 date: 2018-05-10 19:52:00 -07:00
-name: Everlane
+name: Everlane Core Product
 source: http://everlane.com
 thumbnail_path: "/uploads/thumb-44730b.jpg"
 images:
