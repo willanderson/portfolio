@@ -1,7 +1,7 @@
 ---
 title: These Texts
 date: 2017-08-30 15:17:00 -07:00
-position: 1
+position: 3
 name: These Texts
 featured: true
 source: http://thesetexts.com/

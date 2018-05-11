@@ -1,6 +1,7 @@
 ---
 title: Careers
 date: 2017-05-10 14:43:00 -07:00
+position: 1
 name: Careers
 source: https://www.everlane.com/careers
 thumbnail_path: "/uploads/thumb-d5088d.jpg"

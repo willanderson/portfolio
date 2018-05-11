@@ -1,7 +1,7 @@
 ---
 title: The Cádiz Shop
 date: 2016-11-10 09:58:00 -08:00
-position: 10
+position: 12
 name: Cádiz Shop
 featured: true
 source: http://everlane.com/cadiz-shop

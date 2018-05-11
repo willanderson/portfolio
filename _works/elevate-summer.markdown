@@ -3,7 +3,7 @@ title: Elevate Summer
 date: 2016-04-11 19:29:00 -07:00
 tags:
 - campaign
-position: 11
+position: 13
 name: Elevate Summer
 source: http://everlane.com/sandals
 thumbnail_path: "/uploads/Thumb-10.jpg"

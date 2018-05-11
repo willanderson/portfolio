@@ -1,7 +1,7 @@
 ---
 title: Denim
 date: 2017-09-07 12:41:00 -07:00
-position: 0
+position: 2
 name: Denim
 featured: true
 source: https://www.everlane.com/denim
