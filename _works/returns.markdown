@@ -6,7 +6,7 @@ name: Easy Returns
 source: http://everlane.com
 thumbnail_path: "/uploads/thumb-a14fa1.jpg"
 images:
-- path: "/uploads/returns-11.png"
+- path: "/uploads/returns-2.png"
   caption: 
   cols: 12
   class: desktop
