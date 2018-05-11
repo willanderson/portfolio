@@ -5,39 +5,39 @@ name: Easy Returns
 source: http://everlane.com
 thumbnail_path: "/uploads/thumb-a14fa1.jpg"
 images:
-- path: "/uploads/returns-11.jpg"
+- path: "/uploads/returns-11.png"
   caption: 
   cols: 12
   class: desktop
-- path: "/uploads/returns-10.jpg"
+- path: "/uploads/returns-10.png"
   caption: 
   cols: 6
   class: desktop
-- path: "/uploads/returns-9.jpg"
+- path: "/uploads/returns-9.png"
   caption: 
   cols: 6
   class: desktop
-- path: "/uploads/returns-7.jpg"
+- path: "/uploads/returns-7.png"
   caption: 
   cols: 6
   class: desktop
-- path: "/uploads/returns-8.jpg"
+- path: "/uploads/returns-8.png"
   caption: 
   cols: 6
   class: desktop
-- path: "/uploads/returns-6.jpg"
+- path: "/uploads/returns-6.png"
   caption: 
   cols: 12
   class: desktop
-- path: "/uploads/returns-4.jpg"
+- path: "/uploads/returns-4.png"
   caption: 
   cols: 12
   class: desktop
-- path: "/uploads/returns-5.jpg"
+- path: "/uploads/returns-5.png"
   caption: 
   cols: 12
   class: desktop
-- path: "/uploads/returns-3.jpg"
+- path: "/uploads/returns-5-9a13a0.png"
   caption: 
   cols: 12
   class: desktop
