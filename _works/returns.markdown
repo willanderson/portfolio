@@ -38,7 +38,15 @@ images:
   caption: 
   cols: 12
   class: desktop
-- path: "/uploads/returns-5-9a13a0.png"
+- path: "/uploads/returns-4-18715e.png"
+  caption: 
+  cols: 12
+  class: desktop
+- path: "/uploads/returns-3.png"
+  caption: 
+  cols: 12
+  class: desktop
+- path: "/uploads/returns-1.png"
   caption: 
   cols: 12
   class: desktop
