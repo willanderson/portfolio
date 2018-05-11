@@ -2,7 +2,7 @@
 title: Denim
 date: 2017-09-07 12:41:00 -07:00
 position: 2
-name: Denim
+name: Denim Launch
 featured: true
 source: https://www.everlane.com/denim
 thumbnail_path: "/uploads/Thumb-2.jpg"
