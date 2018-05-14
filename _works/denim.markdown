@@ -51,8 +51,8 @@ images:
   cols: 12
   class: desktop
 - path: "/uploads/img9-compressor.png"
-  caption: 'We designed a custom shopping experience just for denim. Features included
-    expanded product details, a comparison hero image, and additional editorial photos. '
+  caption: 'The custom denim shop featured expanded product details, a comparison
+    tool, and additional editorial moments. '
   cols: 6
   class: desktop
 - path: "/uploads/img10-compressor.png"
