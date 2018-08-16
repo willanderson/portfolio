@@ -8,7 +8,7 @@ intro: 'I''m a designer that''s really into the web. I specialize in user-centri
 background:
 - company: Squarespace
   title: Product Designer
-  description: 
+  description: I just sort of started so I'll fill this out later.
 - company: Everlane
   title: Product Designer
   description: Concept, design and execute campaigns and interactive experiences around
