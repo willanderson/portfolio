@@ -4,10 +4,13 @@ permalink: "/about/"
 navigation_weight: 1
 intro: 'I''m a designer that''s really into the web. I specialize in user-centric
   design,  e-commerce strategy, and design systems. I''m currently on the Digital
-  Product team at Everlane. '
+  Product team at Squarespace. '
 background:
+- company: Squarespace
+  title: Product Designer
+  description: 
 - company: Everlane
-  title: Digital Design
+  title: Product Designer
   description: Concept, design and execute campaigns and interactive experiences around
     Everlane's marquee product and brand stories.
 - company: Madewell
