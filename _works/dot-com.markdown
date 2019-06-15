@@ -1,5 +1,5 @@
 ---
-title: Dot Com
+title: Everlane.com
 date: 2018-05-10 19:52:00 -07:00
 name: Everlane Core Product
 source: http://everlane.com
