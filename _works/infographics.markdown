@@ -1,5 +1,5 @@
 ---
-title: Infographics
+title: Know Your Costs
 date: 2016-08-10 00:00:00 -07:00
 tags:
 - mobile
