@@ -3,7 +3,7 @@ title: Everlane.com
 date: 2018-05-10 19:52:00 -07:00
 name: Everlane Core Product
 source: http://everlane.com
-thumbnail_path: "/uploads/dot%20com-1.png"
+thumbnail_path: "/uploads/dotcom.jpg"
 images:
 - path: "/uploads/dot%20com-1.png"
   caption: 
