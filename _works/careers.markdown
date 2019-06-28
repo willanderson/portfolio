@@ -4,7 +4,7 @@ date: 2017-05-10 14:43:00 -07:00
 position: 1
 name: Work at Everlane
 source: https://www.everlane.com/careers
-thumbnail_path: "/uploads/img-2-1ea938.jpg"
+thumbnail_path: "/uploads/about.png"
 bg-image: "/uploads/img-1-dffbc4.jpg"
 images:
 - path: "/uploads/img-2-1ea938.jpg"
