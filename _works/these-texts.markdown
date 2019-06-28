@@ -5,7 +5,7 @@ position: 3
 name: These Texts
 featured: true
 source: http://thesetexts.com/
-thumbnail_path: "/uploads/img0-f992b5.jpg"
+thumbnail_path: "/uploads/thesetexts.png"
 images:
 - path: "/uploads/img0-f992b5.jpg"
   caption: 
