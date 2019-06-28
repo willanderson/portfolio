@@ -5,7 +5,7 @@ position: 10
 name: Kaufmann Mercantile
 featured: false
 source: http://kaufmann-mercantile.com
-thumbnail_path: "/uploads/img2-compressor.png"
+thumbnail_path: "/uploads/km.jpg"
 bg-image: "/uploads/subhero-compressor.jpg"
 images:
 - path: "/uploads/img2-compressor.png"
