@@ -4,7 +4,7 @@ date: 2015-10-14 17:00:00 -07:00
 position: 7
 name: Room Service
 featured: true
-thumbnail_path: "/img/room-service/img-1.png"
+thumbnail_path: "/uploads/rs_thumbnail.jpg"
 bg-image: "/img/room-service/room-service-0.jpg"
 images:
 - path: "/img/room-service/img-1.png"
