@@ -10,7 +10,7 @@ position: 5
 name: Everlane x Gia Coppola
 featured: true
 source: everlane.com/gia-coppola
-thumbnail_path: "/uploads/desktop.jpg"
+thumbnail_path: "/uploads/gia-thumb.jpg"
 bg-image: "/img/gia/img-0.png"
 images:
 - path: "/uploads/desktop.jpg"
