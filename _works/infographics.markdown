@@ -9,7 +9,7 @@ tags:
 position: 11
 name: Infographics
 source: http://everlane.com
-thumbnail_path: "/uploads/mobiles.png"
+thumbnail_path: "/uploads/radprice.jpg"
 images:
 - path: "/uploads/mobiles.png"
   caption: 
