@@ -5,7 +5,7 @@ position: 4
 name: Quinn Cantwell
 featured: true
 source: http://quinncantwell.com
-thumbnail_path: "/uploads/img0-compressor%20(1).jpg"
+thumbnail_path: "/uploads/quinnc.jpg"
 images:
 - path: "/uploads/img0-compressor%20(1).jpg"
   caption: 
