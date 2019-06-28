@@ -8,19 +8,20 @@ thumbnail_path: "/uploads/img-2-1ea938.jpg"
 bg-image: "/uploads/img-1-dffbc4.jpg"
 images:
 - path: "/uploads/img-2-1ea938.jpg"
-  caption:
+  caption: 
   cols: 12
   class: desktop
 - path: "/uploads/img-3-86b215.jpg"
-  caption:
+  caption: 
   cols: 12
   class: desktop
 - path: "/uploads/img4-31e8bd.jpg"
-  caption:
+  caption: 
   cols: 12
   class: desktop
 - path: "/uploads/img5-fc6117.png"
-  caption:
+  caption: 
   cols: 12
   class: mobile
 ---
+

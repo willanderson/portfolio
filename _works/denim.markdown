@@ -42,7 +42,7 @@ images:
   cols: 12
   class: desktop
 - path: https://player.vimeo.com/external/232875188.hd.mp4?s=6e79f702554fc5a05ef5368bb915d8dff4ea5235&profile_id=174
-  caption:
+  caption: 
   cols: 12
   class: video
 - path: "/uploads/img8-compressor.png"
@@ -56,7 +56,7 @@ images:
   cols: 6
   class: desktop
 - path: "/uploads/img10-compressor.png"
-  caption:
+  caption: 
   cols: 6
   class: desktop
 - path: "/uploads/img11-compressor.png"

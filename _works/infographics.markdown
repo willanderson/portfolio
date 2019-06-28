@@ -12,7 +12,7 @@ source: http://everlane.com
 thumbnail_path: "/uploads/mobiles.png"
 images:
 - path: "/uploads/mobiles.png"
-  caption:
+  caption: 
   cols: 12
   class: desktop
 - path: "/uploads/iterations-1.jpg"

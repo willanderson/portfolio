@@ -45,19 +45,19 @@ images:
   cols: 12
   class: mobile
 - path: "/uploads/img-8.jpg"
-  caption:
+  caption: 
   cols: 6
   class: desktop
 - path: "/uploads/img-9.jpg"
-  caption:
+  caption: 
   cols: 6
   class: desktop
 - path: "/uploads/img-10.jpg"
-  caption:
+  caption: 
   cols: 6
   class: desktop
 - path: "/uploads/img-11.jpg"
-  caption:
+  caption: 
   cols: 6
   class: desktop
 credits:

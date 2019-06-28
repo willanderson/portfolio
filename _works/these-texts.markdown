@@ -8,7 +8,7 @@ source: http://thesetexts.com/
 thumbnail_path: "/uploads/img0-f992b5.jpg"
 images:
 - path: "/uploads/img0-f992b5.jpg"
-  caption:
+  caption: 
   cols: 12
   class: desktop
 - path: "/uploads/img1.png"
@@ -17,7 +17,7 @@ images:
   cols: 12
   class: mobile
 - path: "/uploads/img2-c57c7c.jpg"
-  caption:
+  caption: 
   cols: 12
   class: desktop
 - path: "/uploads/img3-da7146.jpg"
@@ -25,23 +25,23 @@ images:
   cols: 6
   class: desktop
 - path: "/uploads/img4-8ba23b.jpg"
-  caption:
+  caption: 
   cols: 6
   class: desktop
 - path: "/uploads/img5-5314a4.png"
-  caption:
+  caption: 
   cols: 12
   class: mobile
 - path: "/uploads/img6-2e1a45.png"
-  caption:
+  caption: 
   cols: 12
   class: mobile
 - path: "/uploads/img7-591c75.png"
-  caption:
+  caption: 
   cols: 12
   class: mobile
 - path: "/uploads/img8-aa3e22.png"
-  caption:
+  caption: 
   cols: 12
   class: mobile
 ---
