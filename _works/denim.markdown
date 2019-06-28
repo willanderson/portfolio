@@ -5,7 +5,7 @@ position: 2
 name: Introducing Denim
 featured: true
 source: https://www.everlane.com/denim
-thumbnail_path: "/uploads/img0-compressor-586ad1.jpg"
+thumbnail_path: "/uploads/denim.png"
 bg-image: "/uploads/bg-compressor.jpg"
 images:
 - path: "/uploads/img0-compressor-586ad1.jpg"
