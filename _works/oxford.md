@@ -5,7 +5,7 @@ position: 6
 name: Modern Oxford
 featured: true
 source: https://www.everlane.com/modern-oxford
-thumbnail_path: "/img/oxford/img-1.jpg"
+thumbnail_path: "/uploads/oxford.jpg"
 bg-image: "/img/oxford/img-0.jpg"
 images:
 - path: "/img/oxford/img-1.jpg"
