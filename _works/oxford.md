@@ -5,11 +5,11 @@ position: 6
 name: Modern Oxford
 featured: true
 source: https://www.everlane.com/modern-oxford
-thumbnail_path: "/uploads/Thumb-5.jpg"
+thumbnail_path: "/img/oxford/img-1.jpg"
 bg-image: "/img/oxford/img-0.jpg"
 images:
 - path: "/img/oxford/img-1.jpg"
-  caption: 
+  caption:
   cols: 12
   class: desktop
 - path: "/img/oxford/img-2.jpg"
@@ -36,4 +36,3 @@ images:
 url: http://everlane.com/modern-oxford
 layout: work
 ---
-

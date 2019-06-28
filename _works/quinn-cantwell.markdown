@@ -5,10 +5,10 @@ position: 4
 name: Quinn Cantwell
 featured: true
 source: http://quinncantwell.com
-thumbnail_path: "/uploads/Thumb-1-33f5df.jpg"
+thumbnail_path: "/uploads/img0-compressor%20(1).jpg"
 images:
 - path: "/uploads/img0-compressor%20(1).jpg"
-  caption: 
+  caption:
   cols: 12
   class: desktop
 - path: "/uploads/img1-308d86.jpg"
@@ -16,32 +16,31 @@ images:
   cols: 6
   class: desktop
 - path: "/uploads/img2-compressor-9cee51.jpg"
-  caption: 
+  caption:
   cols: 6
   class: desktop
 - path: "/uploads/img3-compressor.png"
-  caption: 
+  caption:
   cols: 12
   class: desktop
 - path: "/uploads/img4-compressor-80f5ff.png"
-  caption: 
+  caption:
   cols: 12
   class: desktop
 - path: "/uploads/img5-compressor.png"
-  caption: 
+  caption:
   cols: 6
   class: desktop
 - path: "/uploads/img6-b96d9e.png"
-  caption: 
+  caption:
   cols: 6
   class: desktop
 - path: "/uploads/img8-compressor-57455a.png"
-  caption: 
+  caption:
   cols: 6
   class: mobile
 - path: "/uploads/img7-c1d38d.png"
-  caption: 
+  caption:
   cols: 6
   class: mobile
 ---
-

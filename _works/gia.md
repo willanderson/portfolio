@@ -10,11 +10,11 @@ position: 5
 name: Everlane x Gia Coppola
 featured: true
 source: everlane.com/gia-coppola
-thumbnail_path: "/uploads/Thumb-4.jpg"
+thumbnail_path: "/uploads/desktop.jpg"
 bg-image: "/img/gia/img-0.png"
 images:
 - path: "/uploads/desktop.jpg"
-  caption: 
+  caption:
   cols: 12
   class: desktop
 - path: "/uploads/framer.jpg"
@@ -47,7 +47,7 @@ images:
 credits:
 - job: Creative Director
   name: Internal
-  url: 
+  url:
 - job: Art Director
   name: Quinn Cantwell
 - job: Photography
@@ -58,4 +58,3 @@ credits:
   url: http://www.earlier.io/
 layout: work
 ---
-

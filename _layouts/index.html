@@ -7,3 +7,16 @@ layout: default
         <p>{{ page.intro }}</p>
     </div>
 </div>
+
+<div class="projects">
+  {% assign sorted_work = site.works | sort:"position" %}
+  {% for work in sorted_work %}
+    <div class="row">
+        <div class="col-md-12 project">
+            <a href="{{ work.url }}">
+              <img class="window_img" src="{{ work.thumbnail_path }}" />
+            </a>
+        </div>
+    </div>
+    {% endfor %}
+</div>

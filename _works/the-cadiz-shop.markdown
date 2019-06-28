@@ -5,7 +5,7 @@ position: 12
 name: Cádiz Shop
 featured: true
 source: http://everlane.com/cadiz-shop
-thumbnail_path: "/uploads/Thumb-11.jpg"
+thumbnail_path: "/uploads/img0.jpg"
 bg-image: "/uploads/img0.jpg"
 images:
 - path: "/uploads/img2.jpg"
@@ -37,12 +37,11 @@ images:
 credits:
 - job: Art Direction
   name: Internal
-  url: 
+  url:
 - job: Web Development
   name: Internal
-  url: 
+  url:
 - job: Photography
   name: Internal
-  url: 
+  url:
 ---
-

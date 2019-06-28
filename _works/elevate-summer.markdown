@@ -6,7 +6,7 @@ tags:
 position: 13
 name: Elevate Summer
 source: http://everlane.com/sandals
-thumbnail_path: "/uploads/Thumb-10.jpg"
+thumbnail_path: "/uploads/img-3.jpg"
 bg-image: "/uploads/img-0.jpg"
 images:
 - path: "/uploads/img-3.jpg"
@@ -28,7 +28,7 @@ images:
 credits:
 - job: Art Direction
   name: Quinn Cantwell
-  url: 
+  url:
 - job: Photographer
   name: Fahim Kassam
   url: http://www.fahimkassam.com/
@@ -36,4 +36,3 @@ credits:
   name: Kamil Tusznio
   url: http://www.earlier.io/
 ---
-

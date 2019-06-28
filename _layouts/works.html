@@ -4,22 +4,8 @@ layout: default
 
 <div class="container bottom-space">
   {% assign sorted_work = site.works | sort:"position" %}
-    {% for work in sorted_work %} {% assign loopindex = forloop.index | modulo: 2 %} {% if loopindex == 1 %}
     <div class="row">
-        <div class="work_insert col-md-6 row-space">
-            <a href="{{ work.url }}">
-                <div class="window__wrapper">
-                    <div class="window">
-                        <img class="window_img" src="{{ work.thumbnail_path }}" />
-                    </div>
-                </div>
-            </a>
-            <div class="work_title">
-                <h4><a href="{{ work.url }}">{{ work.name }}</a></h4>
-            </div>
-        </div>
-        {% else %}
-        <div class="work_insert col-md-6 row-space">
+        <div class="work_insert col-md-12 row-space">
             <a href="{{ work.url }}">
                 <div class="window__wrapper">
                     <div class="window">
@@ -32,6 +18,4 @@ layout: default
             </div>
         </div>
     </div>
-    {% endif %}
-    {% endfor %}
 </div>

@@ -9,7 +9,7 @@ tags:
 position: 9
 name: Ankle Boots
 source: everlane.com/ankle-boots
-thumbnail_path: "/uploads/Thumb-8.jpg"
+thumbnail_path: "/uploads/img-0-c599a9.jpg"
 bg-image: "/uploads/img-0-c599a9.jpg"
 images:
 - path: "/uploads/img-1.png"
@@ -45,19 +45,19 @@ images:
   cols: 12
   class: mobile
 - path: "/uploads/img-8.jpg"
-  caption: 
+  caption:
   cols: 6
   class: desktop
 - path: "/uploads/img-9.jpg"
-  caption: 
+  caption:
   cols: 6
   class: desktop
 - path: "/uploads/img-10.jpg"
-  caption: 
+  caption:
   cols: 6
   class: desktop
 - path: "/uploads/img-11.jpg"
-  caption: 
+  caption:
   cols: 6
   class: desktop
 credits:
@@ -66,8 +66,8 @@ credits:
   url: http://www.quinncantwell.com
 ---
 
-For Everlane, 2016 was the year of shoes. With a growing number of styles, as well as growing customer demand, we wanted to kick off the year big: two new styles that could complement any look, occasion, or attitude. The result was the duel launch of the Street and Modern Ankle Boot. 
+For Everlane, 2016 was the year of shoes. With a growing number of styles, as well as growing customer demand, we wanted to kick off the year big: two new styles that could complement any look, occasion, or attitude. The result was the duel launch of the Street and Modern Ankle Boot.
 
-The site experience, and accompanying collateral, centered around this idea of duality. With a unique scrolling experience, a dynamic color palette, and a slew of visual styling, customers were taken through an engaging and unique launch experience that communicated both shoes's versatility and ease. 
+The site experience, and accompanying collateral, centered around this idea of duality. With a unique scrolling experience, a dynamic color palette, and a slew of visual styling, customers were taken through an engaging and unique launch experience that communicated both shoes's versatility and ease.
 
-On a personal note, it was one my first projects involving motion design. In these pre-Framer days, I spent a good chunk of time both learning After Effects, and then tweaking key frames and animations (and the latter experience is a nice reminder of how far we've since come in terms of prototyping software). 
+On a personal note, it was one my first projects involving motion design. In these pre-Framer days, I spent a good chunk of time both learning After Effects, and then tweaking key frames and animations (and the latter experience is a nice reminder of how far we've since come in terms of prototyping software).

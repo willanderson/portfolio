@@ -45,10 +45,6 @@ img {
 }
 
 
-section {
-  background-color: white;
-}
-
 .hr {
   border-bottom: 1px solid #dadada;
 }
@@ -72,7 +68,7 @@ section {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-  
+
   }
 }
 
@@ -159,11 +155,13 @@ header {
   width: 100%;
   background-color: white;
   position: fixed;
-  box-shadow: 0 1px 2px 0 rgba(76,76,75,.1) }
+  border-bottom: 1px solid #767676;
+}
 
 .index header {
-  background-color: #F8F8F8;
+  background-color: #fff;
   box-shadow: none;
+  border-bottom: 1px solid #767676;
 }
 
 .title_container {
@@ -296,9 +294,11 @@ footer ul li a {
 
 .intro {
    width: 100%;
-   min-height: calc(100vh - 171px);
+   min-height: 75vh;
    height: auto;
-   background-color: #f8f8f8; }
+   position: fixed;
+   z-index: -1;
+ }
 
 .intro .p-wrapper {
   margin: 0px 15px;
@@ -311,13 +311,6 @@ footer ul li a {
 .index .browser {
   width: 85%;
   margin: 0 auto;
-}
-
-.index .work_insert {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  filter: drop-shadow(0px 2px 3px #D3D3D3);
 }
 
 .index .browser {
@@ -363,7 +356,7 @@ footer ul li a {
 .browser {
   position: relative;
   width: 100%;
-  background-color: #f8f8f8;
+  background-color: #fff;
   border-radius: 5px;
   overflow: hidden;
   border: #f8f8f8 solid 1px;
@@ -379,7 +372,7 @@ footer ul li a {
 
 .window__wrapper {
   overflow: hidden;
-  border: 1px solid #f8f8f8;
+  border: 1px solid #fff;
   border-radius: 4px;
 }
 
@@ -424,8 +417,7 @@ footer ul li a {
 
 .work_insert {
   margin: 0 auto;
-  max-height: calc(100vh - 70px);
-
+  padding: 5% 5%;
 }
 
 .works .window {
@@ -494,7 +486,7 @@ li.active {
 }
 
 .image-row {
-  background-color: #f8f8f8;
+  background-color: #fff;
   min-height: 550px;
   display: flex;
   align-items: center;
@@ -803,4 +795,45 @@ li.active {
 .slick-dots li.slick-active button:before {
     opacity: .75;
     color: black;
+}
+
+/* New Stuff */
+
+.projects {
+  margin-top: 75vh;
+  background-color: white;
+  border-top: 1px solid #767676;
+}
+
+.projects .row {
+  border-bottom: 1px solid #767676;
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project a img {
+  width: 66%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  padding: 66px 0px;
+}
+
+/* Construction */
+
+.temp {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.temp h2 {
+  font-size: 48px;
+  max-width: 600px;
 }
