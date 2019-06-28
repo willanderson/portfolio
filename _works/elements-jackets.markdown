@@ -4,7 +4,7 @@ date: 2017-03-13 22:01:00 -07:00
 position: 14
 name: The Elements Jackets
 source: http://everlane.com/elements
-thumbnail_path: "/uploads/img-2-2024ec.jpg"
+thumbnail_path: "/uploads/elements.jpg"
 bg-image: "/uploads/img-1-c6de1b.jpg"
 images:
 - path: https://player.vimeo.com/external/208938189.hd.mp4?s=47368f95830f6ef1945279b815fd9035a6c44889&profile_id=119
