@@ -1,105 +1,21 @@
-<div class="post">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="row work-intro">
-                    <div class="col-md-8">
-                        <h3>
-                            {{ content }}
-                        </h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        {% for image in page.images %}
-          {% if image.cols == 12 %}
-              {% include post-col-12.html %}
-          {% else image.cols == 6 %}
-              {% cycle '<div class="row row-eq-height twoup spacer">', '' %}
-                  {% include post-col-6.html %}
-              {% cycle '', '</div>' %}
-          {% endif %}
-        {% endfor %}
-        <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6">
-                <div class="info">
-                    <div class="row">
-                        <div class="info--header col-md-4">
-                            <h3>Info</h3>
-                        </div>
-                        <div class="col-md-4">
-                            <h4>Date</h4>
-                        </div>
-                        <div class="col-md-4">
-                          <p>{{ page.date | date: "%B %-d, %Y" }}</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="info--header col-md-4">
-                        </div>
-                        <div class="col-md-4">
-                            <h4>URL</h4>
-                        </div>
-                        <div class="col-md-4">
-                          <a href="{{ page.source }}">{{ page.name }}</a>
-                        </div>
-                    </div>
-                </div>
-                {% if page.credits != '' %}
-                <div class="info">
-                    <div class="row">
-                        <div class="info--header col-md-4">
-                            <h3>Credits</h3>
-                        </div>
-                        {% for credit in page.credits limit: 1 %}
-                        <div class="col-md-4">
-                         <h4>{{ credit.job }}</h4>
-                        </div>
-                        <div class="col-md-4">
-                          <p><a href="{{ credit.url }}">{{ credit.name }}</a></p>
-                        </div>
-                        {% endfor %}
-                    </div>
-                    {% for credit in page.credits offset: 1 %}
-                      <div class="row">
-                        <div class="info--header col-md-4">
-                        </div>
-                        <div class="col-md-4">
-                         <h4>{{ credit.job }}</h4>
-                        </div>
-                        <div class="col-md-4">
-                          {% if credit.url %}
-                            <p><a href="{{ credit.url }}">{{ credit.name }}</a></p>
-                          {% else %}
-                            <p>{{ credit.name }}</p>
-                          {% endif %}
-                        </div>
-                      </div>
-                    {% endfor %}
-                </div>
-                {% endif %}
-                {% if page.press.size > 0 %}
-                <div class="info">
-                    <div class="row">
-                        <div class="info--header col-md-4">
-                            <h3>Press</h3>
-                        </div>
-                        <div class="col-md-4">
-                            {% for article in page.press %}
-                            <p><a href="{{ article.url }}">{{ article.pub }}</a></p>
-                            {% endfor %}
-                        </div>
-                        <div class="col-md-4">
-                        </div>
-                    </div>
-                </div>
-                {% endif %}
-            </div>
-            <div class="col-md-3"></div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 spacer"></div>
-        </div>
+<div class="w-100 flex flex-row flex-wrap z-5">
+
+  <div class="intro pt6 flex items-center">
+      <div class="p-wrapper w-60 f3 center">
+          <p class="measure-narrow">{{ page.content }}</p>
+      </div>
+  </div>
+
+  {% for image in page.images %}
+    <div class="pa6-l w-90-l pa5 w-100 mw9 center flex justify-center">
+
+
+      <img src="{{image.path}}" />
+
+
     </div>
+
+
+  {% endfor %}
+
 </div>

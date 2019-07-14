@@ -1,0 +1,36 @@
+{% if image.class != 'video' %}
+    <div class="row spacer">
+        <div class="col-md-12">
+            <div class="image-row {{ image.class }}">
+                <div class="padding">
+                    <div class="shadow image-row-item">
+                        <img class="image-row-item" src="{{ image.path }}" data-action="zoom">
+                    </div>
+                </div>
+            </div>
+            {% if image.caption %}
+            <div class="img-caption">
+                <span>{{ image.caption }}</span>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+{% else %}
+<div class="row spacer">
+    <div class="col-md-12">
+        <div class="image-row {{ image.class }}">
+            <div class="padding">
+                <div class="post-video shadow">
+                  <video class="post-video__video image-row-item" playsinline autoplay="true" loop="true" muted="true">
+                  <source src="{{ image.path }}" type="video/mp4">
+                </div>
+            </div>
+        </div>
+        {% if image.caption %}
+        <div class="img-caption">
+            <span>{{ image.caption }}</span>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endif %}

@@ -3,11 +3,14 @@ layout: default
 ---
 
 {% if page.bg-image %}
-<div class="subhero">
-  <div class="subhero-image" style="background-image: url({{ page.bg-image }})"></div>
+<div class="block z--1 dn db-ns">
+  <div class="vh-75 w-100 tc fixed flex justify-center items-center z-0 pointer-none">
+    <div id="projectTitle" class="f-headline white">{{ page.title }}</div>
+  </div>
+  <div class="vh-75 subhero f1 white tc pointer-none" style="background-image: url({{ page.bg-image }})"></div>
 </div>
 
-<div class="mobile_subhero">
+<div class="mobile_subhero dn-ns">
   <img class="mobile_subhero" src="{{ page.bg-image}} " />
 </div>
 {% endif %}

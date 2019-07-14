@@ -15,11 +15,11 @@ images:
   class: desktop
 - path: "/uploads/img-1.jpg"
   caption: Initial site wireframes.
-  cols: 6
+  cols: 12
   class: desktop
 - path: "/uploads/img-2.jpg"
   caption: Campaign branding.
-  cols: 6
+  cols: 12
   class: desktop
 - path: "/uploads/img-4.png"
   caption: Mobile site.
@@ -28,7 +28,7 @@ images:
 credits:
 - job: Art Direction
   name: Quinn Cantwell
-  url: 
+  url:
 - job: Photographer
   name: Fahim Kassam
   url: http://www.fahimkassam.com/
@@ -36,4 +36,3 @@ credits:
   name: Kamil Tusznio
   url: http://www.earlier.io/
 ---
-

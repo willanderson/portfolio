@@ -9,7 +9,7 @@ thumbnail_path: "/uploads/oxford.jpg"
 bg-image: "/img/oxford/img-0.jpg"
 images:
 - path: "/img/oxford/img-1.jpg"
-  caption: 
+  caption:
   cols: 12
   class: desktop
 - path: "/img/oxford/img-2.jpg"
@@ -22,10 +22,10 @@ images:
   class: video
   cols: 12
 - path: "/img/oxford/img-5.jpg"
-  cols: 6
+  cols: 12
   class: desktop
 - path: "/img/oxford/img-6.jpg"
-  cols: 6
+  cols: 12
   class: desktop
 - path: "/img/oxford/img-4.png"
   cols: 12
@@ -36,4 +36,3 @@ images:
 url: http://everlane.com/modern-oxford
 layout: work
 ---
-

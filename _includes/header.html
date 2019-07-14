@@ -1,29 +1,10 @@
-<header id="header" class="closed">
-    <div class="wrapper">
-        <div class="title_container">
-            <a href="/" class="title">http://willanderson.co/</a>
-        </div>
-        <nav class="desktop">
-            {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %} {% for p in navigation_pages %} {% if p.navigation_weight %}
-            <a href="{{ p.url }}" {% if p.url==page.url %}class="active" {% endif %}>
-                    {{ p.title }}
-                </a> {% endif %} {% endfor %}
-        </nav>
-        <nav class="mobile">
-            <a id="menuToggle" href="javascript:;">Menu</a>
-        </nav>
-    </div>
-    <div id="mobile_wrapper">
-        <div class="mobile_nav">
-            <ul>
-                {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %} {% for p in navigation_pages %} {% if p.navigation_weight %}
-                <li>
-                    <a href="{{ p.url }}" class="underline">
-                  {{ p.title }}
-              </a>
-                </li>
-                {% endif %} {% endfor %}
-            </ul>
-        </div>
-    </div>
+<header>
+  <nav class="flex w-100 bg-white border-box ph3 ph4-l pv3 justify-between bb b--black-50 fixed top-0 z-999">
+      <a class="link off-black f5 dib mr3 items-start" href="/" title="Home">
+          <span>http://willanderson.co/</span><span class="light-silver" id="section">{{ page.sectionID }}</span>
+      </a>
+      <div class="db dtc-l v-mid w-auto tr">
+          <a class="link dim off-black f6 dib mr3" href="#footer" title="Info">Info</a>
+      </div>
+  </nav>
 </header>

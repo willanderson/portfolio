@@ -8,40 +8,39 @@ source: http://quinncantwell.com
 thumbnail_path: "/uploads/quinnc.jpg"
 images:
 - path: "/uploads/img0-compressor%20(1).jpg"
-  caption: 
+  caption:
   cols: 12
   class: desktop
 - path: "/uploads/img1-308d86.jpg"
   caption: Initial site wireframes
-  cols: 6
+  cols: 12
   class: desktop
 - path: "/uploads/img2-compressor-9cee51.jpg"
-  caption: 
-  cols: 6
+  caption:
+  cols: 12
   class: desktop
 - path: "/uploads/img3-compressor.png"
-  caption: 
+  caption:
   cols: 12
   class: desktop
 - path: "/uploads/img4-compressor-80f5ff.png"
-  caption: 
+  caption:
   cols: 12
   class: desktop
 - path: "/uploads/img5-compressor.png"
-  caption: 
-  cols: 6
+  caption:
+  cols: 12
   class: desktop
 - path: "/uploads/img6-b96d9e.png"
-  caption: 
-  cols: 6
+  caption:
+  cols: 12
   class: desktop
 - path: "/uploads/img8-compressor-57455a.png"
-  caption: 
-  cols: 6
+  caption:
+  cols: 12
   class: mobile
 - path: "/uploads/img7-c1d38d.png"
-  caption: 
-  cols: 6
+  caption:
+  cols: 12
   class: mobile
 ---
-
