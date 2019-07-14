@@ -1,7 +1,7 @@
 ---
 title: Room Service
 date: 2015-10-14 17:00:00 -07:00
-position: 7
+position: 8
 name: Room Service
 featured: true
 thumbnail_path: "/uploads/rs_thumbnail.jpg"

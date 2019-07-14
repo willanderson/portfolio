@@ -6,7 +6,7 @@ tags:
 - Interactive
 - Video
 - Campaign
-position: 5
+position: 6
 name: Everlane x Gia Coppola
 featured: true
 source: everlane.com/gia-coppola

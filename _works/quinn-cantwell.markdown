@@ -1,7 +1,7 @@
 ---
 title: Quinn Cantwell
 date: 2017-06-02 16:49:00 -07:00
-position: 4
+position: 5
 name: Quinn Cantwell
 featured: true
 source: http://quinncantwell.com

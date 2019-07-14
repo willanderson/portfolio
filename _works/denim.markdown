@@ -1,7 +1,7 @@
 ---
 title: Everlane Denim
 date: 2017-09-07 12:41:00 -07:00
-position: 2
+position: 3
 name: Introducing Denim
 featured: true
 source: https://www.everlane.com/denim
