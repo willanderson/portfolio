@@ -9,35 +9,35 @@ thumbnail_path: "/uploads/km.jpg"
 bg-image: "/uploads/subhero-compressor.jpg"
 images:
 - path: "/uploads/img2-compressor.png"
-  caption:
+  caption: 
   cols: 12
   class: desktop
 - path: "/uploads/img3-compressor-c3e142.jpg"
-  caption:
+  caption: 
   cols: 12
   class: desktop
 - path: "/uploads/fieldnotes-compressor.jpg"
-  caption:
+  caption: 
   cols: 12
   class: desktop
 - path: https://player.vimeo.com/external/218679009.hd.mp4?s=66d343ce3c16227fc398c31e84069ad6dd708b9f&profile_id=169
-  caption:
+  caption: 
   cols: 12
   class: video
 - path: "/uploads/img4.jpg"
-  caption:
+  caption: 
   cols: 12
   class: desktop
 - path: "/uploads/img5-compressor-b8c4de.jpg"
-  caption:
+  caption: 
   cols: 12
   class: desktop
 - path: "/uploads/img6.png"
-  caption:
+  caption: 
   cols: 12
   class: desktop
 - path: "/uploads/img7-compressor-fede8c.png"
-  caption:
+  caption: 
   cols: 12
   class: mobile
 credits:
@@ -52,3 +52,4 @@ press:
 - pub: Fast Company
   url: https://news.fastcompany.com/ahalife-acquires-kaufmann-mercantile-4016628
 ---
+

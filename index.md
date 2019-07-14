@@ -7,3 +7,4 @@ intro: 'Hi, my name is Will. I’m a product designer in New York, NY. I work at
 layout: index
 sectionID: projects
 ---
+

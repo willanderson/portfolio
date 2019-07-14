@@ -24,7 +24,7 @@ images:
   cols: 12
   class: desktop
 - path: https://player.vimeo.com/external/208938371.hd.mp4?s=48ddedfde5080579f2617c25714fe56e96f808e9&profile_id=119
-  caption:
+  caption: 
   cols: 12
   class: video
 - path: "/uploads/img-8.png"
@@ -36,23 +36,24 @@ images:
   cols: 12
   class: desktop
 - path: "/uploads/img-9.png"
-  caption:
+  caption: 
   cols: 12
   class: mobile
 credits:
 - job: Art Direction
   name: Internal
-  url:
+  url: 
 - job: Photography
   name: Internal
-  url:
+  url: 
 - job: Videography
   name: Internal
-  url:
+  url: 
 - job: Web Dev
   name: Internal
-  url:
+  url: 
 press:
 - pub: Business Insider
   url: http://www.businessinsider.com/everlane-elements-jacket-anorak-review-2017-3
 ---
+

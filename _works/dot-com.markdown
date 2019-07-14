@@ -6,51 +6,52 @@ source: http://everlane.com
 thumbnail_path: "/uploads/dotcom.jpg"
 images:
 - path: "/uploads/dot%20com-1.png"
-  caption:
+  caption: 
   cols: 12
   class: desktop
 - path: "/uploads/dot%20com-2.png"
-  caption:
+  caption: 
   cols: 12
   class: desktop
 - path: "/uploads/dot%20com-3.png"
-  caption:
+  caption: 
   cols: 12
   class: desktop
 - path: "/uploads/dot%20com-4.png"
-  caption:
+  caption: 
   cols: 12
   class: desktop
 - path: "/uploads/dot%20com-5.png"
-  caption:
+  caption: 
   cols: 12
   class: desktop
 - path: "/uploads/dot%20com-6.png"
-  caption:
+  caption: 
   cols: 12
   class: desktop
 - path: "/uploads/dot%20com-11.png"
-  caption:
+  caption: 
   cols: 12
   class: desktop
 - path: "/uploads/dot%20com-12.png"
-  caption:
+  caption: 
   cols: 12
   class: desktop
 - path: "/uploads/dot%20com-7.png"
-  caption:
+  caption: 
   cols: 12
   class: desktop
 - path: "/uploads/dot%20com-8.png"
-  caption:
+  caption: 
   cols: 12
   class: desktop
 - path: "/uploads/dot%20com-9.png"
-  caption:
+  caption: 
   cols: 12
   class: desktop
 - path: "/uploads/dot%20com-10.png"
-  caption:
+  caption: 
   cols: 12
   class: desktop
 ---
+
