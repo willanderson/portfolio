@@ -1,7 +1,7 @@
 ---
 title: Returns
 date: 2018-05-10 16:34:00 -07:00
-position: 2
+position: 5
 name: Easy Returns
 source: http://everlane.com
 thumbnail_path: "/uploads/returns-thumb.jpg"
