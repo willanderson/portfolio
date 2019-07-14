@@ -4,7 +4,7 @@ date: 2018-05-10 16:34:00 -07:00
 position: 2
 name: Easy Returns
 source: http://everlane.com
-thumbnail_path: "/uploads/returns.jpg"
+thumbnail_path: "/uploads/returns-thumb.jpg"
 images:
 - path: "/uploads/returns-2.png"
   caption: 
