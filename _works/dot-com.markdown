@@ -1,5 +1,5 @@
 ---
-title: Everlane.com
+title: Everlane
 date: 2018-05-10 19:52:00 -07:00
 position: 0
 name: Everlane Core Product
