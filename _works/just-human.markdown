@@ -1,7 +1,7 @@
 ---
 title: Just Human
 date: 2019-07-14 18:20:00 -07:00
-position: 7
+position: 8
 name: Just Human
 thumbnail_path: "/uploads/thumb.png"
 bg-image: "/uploads/Day2_A_Clear_0721-3_1_1852x.jpg"
