@@ -7,7 +7,7 @@ source: https://www.everlane.com/careers
 thumbnail_path: "/uploads/about.png"
 bg-image: "/uploads/img-1-dffbc4.jpg"
 images:
-- path: "/uploads/img-2-1ea938.jpg"
+- path: "/uploads/careers-moodboard.jpg"
   caption: 
   cols: 12
   class: desktop
@@ -15,11 +15,11 @@ images:
   caption: 
   cols: 12
   class: desktop
-- path: "/uploads/img4-31e8bd.jpg"
+- path: "/uploads/careers-desktop.jpg"
   caption: 
   cols: 12
   class: desktop
-- path: "/uploads/img5-fc6117.png"
+- path: "/uploads/careers-mobile.jpg"
   caption: 
   cols: 12
   class: mobile
