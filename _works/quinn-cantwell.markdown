@@ -11,35 +11,27 @@ images:
   caption: 
   cols: 12
   class: desktop
-- path: "/uploads/img1-308d86.jpg"
-  caption: Initial site wireframes
-  cols: 12
-  class: desktop
-- path: "/uploads/img2-compressor-9cee51.jpg"
+- path: "/uploads/desktop2.jpg"
   caption: 
   cols: 12
   class: desktop
-- path: "/uploads/img3-compressor.png"
+- path: "/uploads/desktop3.jpg"
   caption: 
   cols: 12
   class: desktop
-- path: "/uploads/img4-compressor-80f5ff.png"
+- path: "/uploads/dekstop4.jpg"
   caption: 
   cols: 12
   class: desktop
-- path: "/uploads/img5-compressor.png"
+- path: "/uploads/desktop5.jpg"
   caption: 
   cols: 12
   class: desktop
-- path: "/uploads/img6-b96d9e.png"
+- path: "/uploads/desktop6.jpg"
   caption: 
   cols: 12
   class: desktop
-- path: "/uploads/img8-compressor-57455a.png"
-  caption: 
-  cols: 12
-  class: mobile
-- path: "/uploads/img7-c1d38d.png"
+- path: "/uploads/mobile-duo.png"
   caption: 
   cols: 12
   class: mobile
