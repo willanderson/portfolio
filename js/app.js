@@ -1,5 +1,6 @@
 $(document).ready(function() {
-  AOS.init();
+
+
 
   var target = $('#projectTitle');
 
@@ -12,18 +13,31 @@ $(document).ready(function() {
 
 
   var distance = $('.projects').offset().top - 60;
-  var myElement = $('.section');
+  var myElement = $('.navUrl');
 
   $(window).scroll(function() {
     if ($(this).scrollTop() >= distance) {
-      $("#section").show();
+      $("#navUrl").show();
     } else {
-      $("#section").hide();
+      $("#navUrl").hide();
     }
   });
 
+
+  // Animate scroll down to footer
+
   $('a[href^="#"]').click(function() {
     $(this.hash).velocity('scroll');
+  });
+
+
+  // Show project title on hover
+
+  $( ".project" ).mouseenter(function() {
+      $("#navUrl").append("<span id='apenndage'>/" + $(this).attr("name") + "</span>");
+  })
+  .mouseleave(function() {
+      $("#apenndage").remove();
   });
 
 });
