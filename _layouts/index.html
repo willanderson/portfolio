@@ -3,9 +3,9 @@ layout: default
 ---
 
 <div class="intro min-vh-75-offset flex items-center fixed z--1 top-0">
-    <div class="p-wrapper pa4 f1">
-        <p class="measure-narrow">{{ page.intro }}</p>
-    </div>
+  <div class="p-wrapper pa4 f1-ns f2">
+    <p class="measure-narrow">{{ page.intro }}</p>
+  </div>
 </div>
 
 
@@ -15,20 +15,14 @@ layout: default
 
     {% assign sorted_work = site.works | sort:"position" %}
     {% for work in sorted_work %}
-      <div class="w-50-ns w-100-m w-100 mw9 br bb b--black-50">
-          <div class="pa6-l h8 pa5 flex items-center justify-center h-100">
-            <div title="sample" class="project masterTooltip">
-                <div class="tile">
-                  <a href="{{ work.url }}">
-                    <img class="window_img" src="{{ work.thumbnail_path }}" />
-                  </a>
-                </div>
-            </div>
-
-          </div>
-
+    <div class="w-50-ns w-100-m w-100 mw9 br bb b--black-50">
+      <div class="pa6-l h8 pa5 flex items-center justify-center h-100">
+        <a href="{{ work.url }}">
+          <img class="window_img" src="{{ work.thumbnail_path }}" />
+        </a>
       </div>
-      {% endfor %}
+    </div>
+    {% endfor %}
 
   </div>
 

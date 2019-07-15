@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+  AOS.init();
 
   var target = $('#projectTitle');
 
