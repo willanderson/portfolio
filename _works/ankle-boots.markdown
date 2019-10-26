@@ -29,14 +29,13 @@ images:
 - path: "/uploads/img-7.png"
   caption: Mobile site
 - path: "/uploads/img-8.jpg"
-  caption:
+  caption: 
 - path: "/uploads/img-9.jpg"
-  caption:
+  caption: 
 - path: "/uploads/img-10.jpg"
-  caption:
+  caption: 
 - path: "/uploads/img-11.jpg"
-  caption:
-
+  caption: 
 credits:
 - job: Art Director
   name: Quinn Cantwell
