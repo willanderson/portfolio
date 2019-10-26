@@ -11,12 +11,17 @@ bg-image: "/uploads/img-0.jpg"
 images:
 - path: "/uploads/img-3.jpg"
   caption: Desktop site.
+  narrow: 
+  addpadding: true
 - path: "/uploads/img-1.jpg"
   caption: Initial site wireframes.
+  addpadding: true
 - path: "/uploads/img-2.jpg"
   caption: Campaign branding.
+  addpadding: true
 - path: "/uploads/img-4.png"
   caption: Mobile site.
+  narrow: true
 credits:
 - job: Art Direction
   name: Quinn Cantwell
