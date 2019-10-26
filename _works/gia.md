@@ -14,10 +14,15 @@ thumbnail_path: "/uploads/gia-thumb.jpg"
 bg-image: "/img/gia/img-0.png"
 images:
 - path: "/uploads/desktop.jpg"
+  caption: 
+  narrow: 
+  addpadding: 
 - path: "/uploads/framer.jpg"
 - path: "/uploads/sketch.jpg"
 - path: "/uploads/img-phone-2.png"
+  narrow: true
 - path: "/uploads/img-phone-1.png"
+  narrow: true
 - path: "/img/gia/img-4.png"
 - path: "/img/gia/img-5.png"
 - path: "/uploads/gia-video.jpg"
