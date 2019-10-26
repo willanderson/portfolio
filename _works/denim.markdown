@@ -10,6 +10,8 @@ bg-image: "/uploads/bg-compressor.jpg"
 images:
 - path: "/uploads/img0-compressor-586ad1.jpg"
   caption: 'Process, process, process. '
+  narrow: 
+  addpadding: 
 - path: "/uploads/img2-compressor.jpg"
   caption: An array of early wireframes for both the hype landing pages and Denim
     Shop
@@ -35,7 +37,9 @@ images:
 - path: "/uploads/img7-compressor.png"
   caption: 'On September 6, we shut our entire website down in anticipation for denim. '
   addpadding: true
-- path: https://player.vimeo.com/external/232875188.hd.mp4?s=6e79f702554fc5a05ef5368bb915d8dff4ea5235&profile_id=174
+- path: <iframe src="https://player.vimeo.com/video/232875188?title=0&byline=0&portrait=0"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+    allow="autoplay; fullscreen" allowfullscreen></iframe>
   caption: 
   addpadding: true
 - path: "/uploads/img8-compressor.png"
