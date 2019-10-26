@@ -20,7 +20,9 @@ images:
   caption: Early concepts of the desktop scroll experience
 - path: "/uploads/img-5-005c8f.png"
   caption: The campaign's teaser email
-- path: https://player.vimeo.com/external/217250854.hd.mp4?s=34ff31ad14864f7f7ebbd855094b3c5e7bece071&profile_id=119
+- path: <iframe src="https://player.vimeo.com/video/217250854?autoplay=1&loop=1&title=0&byline=0&portrait=0"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+    allow="autoplay; fullscreen" allowfullscreen></iframe>
   caption: Desktop site experience
 - path: "/uploads/img-3-435ad4.jpg"
   caption: Desktop site
