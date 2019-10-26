@@ -47,3 +47,11 @@ ul, li {
 .pointer-none {
   pointer-events: none;
 }
+
+.narrow {
+  max-width: 50%;
+}
+
+.mt-51 {
+  margin-top: 51px;
+}

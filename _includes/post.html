@@ -1,16 +1,16 @@
 <div class="w-100 flex flex-row flex-wrap z-5">
 
-  <div class="intro pt6-ns flex items-center">
+  <div class="intro pt6-ns flex items-center  mt-51">
       <div class="p-wrapper w-60-ns w-100 f3 pa3 center">
           <p class="measure-narrow">{{ page.content }}</p>
       </div>
   </div>
 
   {% for image in page.images %}
-    <div class="pa6-l w-90-l pa0 w-100 mw9 center flex justify-center">
+    <div data-aos="fade-up" class="w-90-l w-100 mw9 center min-vh-100-l h-auto flex items-center justify-center {% if image.narrow %} narrow {%endif %} {% if image.addpadding %} ph4 {%endif %}">
 
       <div>
-          <img class="h-auto" data-aos="fade-up" src="{{image.path}}" />
+          <img class="h-auto" src="{{image.path}}" />
       </div>
 
 
