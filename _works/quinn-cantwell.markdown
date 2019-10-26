@@ -1,7 +1,7 @@
 ---
 title: Quinn Cantwell
 date: 2017-06-02 16:49:00 -07:00
-position: 5
+position: 6
 name: Quinn Cantwell
 featured: true
 source: http://quinncantwell.com
@@ -21,3 +21,4 @@ images:
   caption: 
 - path: "/uploads/mobile-duo.png"
 ---
+

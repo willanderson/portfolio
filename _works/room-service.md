@@ -9,14 +9,16 @@ bg-image: "/img/room-service/room-service-0.jpg"
 images:
 - path: "/img/room-service/img-1.png"
   caption: Initial swipe for the project's branding.
+  narrow: 
+  addpadding: 
 - path: "/img/room-service/img-5.png"
   caption: The full desktop experience.
 - path: https://player.vimeo.com/external/207537745.hd.mp4?s=a224b3cfa5ef831ad051eb6dabdfda8764c618e6&profile_id=119
-  caption:
+  caption: 
 - path: http://scontent.cdninstagram.com/t50.2886-16/12125889_895791407172938_939898811_n.mp4
-  caption:
+  caption: 
 - path: "/uploads/room-service-9.jpg"
-  caption:
+  caption: 
 - path: "/uploads/launch-1.png"
   caption: The Manhattan splash page
 - path: "/uploads/launch-2.png"
@@ -27,13 +29,14 @@ images:
   caption: The Concierge splash page
 - path: "/uploads/room-service-8.png"
   caption: Emails designed for the campaign.
+  narrow: true
 - path: "/uploads/card.png"
   caption: Event collateral.
 - path: "/img/room-service/img-7.png"
   caption: The final video, which was featured on the Everlane homepage and promoted
     across various marketing channels.
 url: http://everlane.com/room-service
-Field name:
+Field name: 
 layout: work
 ---
 
