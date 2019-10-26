@@ -37,7 +37,7 @@ images:
 - path: "/uploads/img7-compressor.png"
   caption: 'On September 6, we shut our entire website down in anticipation for denim. '
   addpadding: true
-- path: <iframe src="https://player.vimeo.com/video/232875188?title=0&byline=0&portrait=0"
+- path: <iframe src="https://player.vimeo.com/video/232875188?autoplay=1&loop=1&title=0&byline=0&portrait=0"
     style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
     allow="autoplay; fullscreen" allowfullscreen></iframe>
   caption: 
