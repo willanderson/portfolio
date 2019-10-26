@@ -18,5 +18,6 @@ images:
 - path: "/uploads/dot%20com-8.png"
 - path: "/uploads/dot%20com-9.png"
 - path: "/uploads/dot%20com-10.png"
-  caption:
+  caption: 
 ---
+

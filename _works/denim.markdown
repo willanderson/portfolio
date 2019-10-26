@@ -13,14 +13,16 @@ images:
 - path: "/uploads/img2-compressor.jpg"
   caption: An array of early wireframes for both the hype landing pages and Denim
     Shop
-  addpadding: true  
+  addpadding: true
 - path: "/uploads/img3-compressor.jpg"
   caption: The Denim Factory desktop landing page
   addpadding: true
 - path: "/uploads/img4-compressor.png"
   caption: The Denim Factory mobile landing page
   addpadding: true
-- path: <iframe src="https://player.vimeo.com/video/232878410?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+- path: <iframe src="https://player.vimeo.com/video/232878410?autoplay=1&loop=1&title=0&byline=0&portrait=0"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+    allow="autoplay; fullscreen" allowfullscreen></iframe>
   caption: Full scroll experience for the denim factory landing page
   addpadding: true
 - path: "/uploads/img6-compressor.png"
@@ -34,7 +36,7 @@ images:
   caption: 'On September 6, we shut our entire website down in anticipation for denim. '
   addpadding: true
 - path: https://player.vimeo.com/external/232875188.hd.mp4?s=6e79f702554fc5a05ef5368bb915d8dff4ea5235&profile_id=174
-  caption:
+  caption: 
   addpadding: true
 - path: "/uploads/img8-compressor.png"
   caption: 'The hype campaign ran for three weeks, and brought customers to an immersive
@@ -45,7 +47,7 @@ images:
     tool, and additional editorial moments. '
   addpadding: true
 - path: "/uploads/img10-compressor.png"
-  caption:
+  caption: 
   addpadding: true
 - path: "/uploads/img11-compressor.png"
   caption: 'Marketing emails and social collateral from the hype campaign.  '
