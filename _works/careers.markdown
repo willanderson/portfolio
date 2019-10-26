@@ -8,20 +8,15 @@ thumbnail_path: "/uploads/about.png"
 bg-image: "/uploads/img-1-dffbc4.jpg"
 images:
 - path: "/uploads/careers-moodboard.jpg"
-  caption: 
-  cols: 12
-  class: desktop
+  caption:
+  addpadding: false
 - path: "/uploads/img-3-86b215.jpg"
-  caption: 
-  cols: 12
-  class: desktop
+  caption:
+  addpadding: false
 - path: "/uploads/careers-desktop.jpg"
-  caption: 
-  cols: 12
-  class: desktop
+  caption:
+  addpadding: false
 - path: "/uploads/careers-mobile.jpg"
-  caption: 
-  cols: 12
-  class: mobile
+  caption:
+  addpadding: false
 ---
-

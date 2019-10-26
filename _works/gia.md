@@ -14,40 +14,19 @@ thumbnail_path: "/uploads/gia-thumb.jpg"
 bg-image: "/img/gia/img-0.png"
 images:
 - path: "/uploads/desktop.jpg"
-  caption: 
-  cols: 12
-  class: desktop
 - path: "/uploads/framer.jpg"
-  cols: 12
-  class: desktop
 - path: "/uploads/sketch.jpg"
-  cols: 12
-  class: desktop
 - path: "/uploads/img-phone-2.png"
-  cols: 12
-  class: mobile
 - path: "/uploads/img-phone-1.png"
-  cols: 12
-  class: mobile
 - path: "/img/gia/img-4.png"
-  cols: 12
-  class: desktop
 - path: "/img/gia/img-5.png"
-  cols: 12
-  class: desktop
 - path: "/uploads/gia-video.jpg"
-  cols: 12
-  class: desktop
 - path: "/uploads/video-b0e54c.jpg"
-  cols: 12
-  class: desktop
 - path: "/img/gia/img-6.png"
-  cols: 12
-  class: desktop
 credits:
 - job: Creative Director
   name: Internal
-  url: 
+  url:
 - job: Art Director
   name: Quinn Cantwell
 - job: Photography
@@ -58,4 +37,3 @@ credits:
   url: http://www.earlier.io/
 layout: work
 ---
-

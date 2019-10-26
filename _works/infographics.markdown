@@ -12,18 +12,8 @@ source: http://everlane.com
 thumbnail_path: "/uploads/radprice.jpg"
 images:
 - path: "/uploads/mobiles.png"
-  caption: 
-  cols: 12
-  class: desktop
 - path: "/uploads/iterations-1.jpg"
-  cols: 12
-  class: desktop
-- path: https://player.vimeo.com/external/208613228.hd.mp4?s=da75e02184a0ae23a376d39f4ab9f03983f232a3&profile_id=169
-  cols: 12
-  class: video
 - path: "/uploads/mobile-1.png"
-  cols: 12
-  class: mobile
 url: http://everlane.com
 layout: work
 ---
