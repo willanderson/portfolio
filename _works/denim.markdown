@@ -13,29 +13,29 @@ images:
 - path: "/uploads/img2-compressor.jpg"
   caption: An array of early wireframes for both the hype landing pages and Denim
     Shop
-  addpadding: false  
+  addpadding: true  
 - path: "/uploads/img3-compressor.jpg"
   caption: The Denim Factory desktop landing page
   addpadding: true
 - path: "/uploads/img4-compressor.png"
   caption: The Denim Factory mobile landing page
-  addpadding: false
-- path: https://player.vimeo.com/external/232878410.hd.mp4?s=55858139afe13fa7eff34043c2be0b8597bea3b0&profile_id=169
+  addpadding: true
+- path: <iframe src="https://player.vimeo.com/video/232878410?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   caption: Full scroll experience for the denim factory landing page
-  addpadding: false
+  addpadding: true
 - path: "/uploads/img6-compressor.png"
   caption: The Denim hype mobile landing page
   narrow: true
-  addpadding: false
+  addpadding: true
 - path: "/uploads/img5-compressor.jpg"
   caption: The Denim hype desktop landing page
-  addpadding: false
+  addpadding: true
 - path: "/uploads/img7-compressor.png"
   caption: 'On September 6, we shut our entire website down in anticipation for denim. '
-  addpadding: false
+  addpadding: true
 - path: https://player.vimeo.com/external/232875188.hd.mp4?s=6e79f702554fc5a05ef5368bb915d8dff4ea5235&profile_id=174
   caption:
-  addpadding: false
+  addpadding: true
 - path: "/uploads/img8-compressor.png"
   caption: 'The hype campaign ran for three weeks, and brought customers to an immersive
     web experience where they could preview the styles and watch the campaign videos. '
@@ -43,13 +43,13 @@ images:
 - path: "/uploads/img9-compressor.png"
   caption: 'The custom denim shop featured expanded product details, a comparison
     tool, and additional editorial moments. '
-  addpadding: false
+  addpadding: true
 - path: "/uploads/img10-compressor.png"
   caption:
-  addpadding: false
+  addpadding: true
 - path: "/uploads/img11-compressor.png"
   caption: 'Marketing emails and social collateral from the hype campaign.  '
-  addpadding: false
+  addpadding: true
 credits:
 - job: Video production
   name: Najeeb Tarazi

@@ -55,3 +55,7 @@ ul, li {
 .mt-51 {
   margin-top: 51px;
 }
+
+.shadow {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+}
