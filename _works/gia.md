@@ -21,6 +21,7 @@ images:
 - path: "/uploads/sketch.jpg"
 - path: "/uploads/img-phone-2.png"
   narrow: true
+  addpadding: true
 - path: "/uploads/img-phone-1.png"
   narrow: true
 - path: "/img/gia/img-4.png"
