@@ -14,6 +14,8 @@ bg-image: "/uploads/img-0-c599a9.jpg"
 images:
 - path: "/uploads/img-1.png"
   caption: Initial swipe for the campaign
+  narrow: 
+  addpadding: 
 - path: "/uploads/img-2.png"
   caption: Early concepts of the desktop scroll experience
 - path: "/uploads/img-5-005c8f.png"
@@ -28,6 +30,7 @@ images:
   caption: Mobile site experience
 - path: "/uploads/img-7.png"
   caption: Mobile site
+  narrow: true
 - path: "/uploads/img-8.jpg"
   caption: 
 - path: "/uploads/img-9.jpg"
