@@ -25,11 +25,12 @@ images:
 credits:
 - job: Art Direction
   name: Internal
-  url:
+  url: 
 - job: Web Development
   name: Internal
-  url:
+  url: 
 - job: Photography
   name: Internal
-  url:
+  url: 
 ---
+

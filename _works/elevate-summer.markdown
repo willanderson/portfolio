@@ -20,7 +20,7 @@ images:
 credits:
 - job: Art Direction
   name: Quinn Cantwell
-  url:
+  url: 
 - job: Photographer
   name: Fahim Kassam
   url: http://www.fahimkassam.com/
@@ -28,3 +28,4 @@ credits:
   name: Kamil Tusznio
   url: http://www.earlier.io/
 ---
+

@@ -13,3 +13,4 @@ images:
 - path: "/uploads/img-4%20copy-6e69da.jpg"
 - path: "/uploads/img-6-ca905b.jpg"
 ---
+

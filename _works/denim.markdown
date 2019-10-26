@@ -13,7 +13,7 @@ images:
 - path: "/uploads/img2-compressor.jpg"
   caption: An array of early wireframes for both the hype landing pages and Denim
     Shop
-  addpadding: false  
+  addpadding: false
 - path: "/uploads/img3-compressor.jpg"
   caption: The Denim Factory desktop landing page
   addpadding: true
@@ -34,7 +34,7 @@ images:
   caption: 'On September 6, we shut our entire website down in anticipation for denim. '
   addpadding: false
 - path: https://player.vimeo.com/external/232875188.hd.mp4?s=6e79f702554fc5a05ef5368bb915d8dff4ea5235&profile_id=174
-  caption:
+  caption: 
   addpadding: false
 - path: "/uploads/img8-compressor.png"
   caption: 'The hype campaign ran for three weeks, and brought customers to an immersive
@@ -45,7 +45,7 @@ images:
     tool, and additional editorial moments. '
   addpadding: false
 - path: "/uploads/img10-compressor.png"
-  caption:
+  caption: 
   addpadding: false
 - path: "/uploads/img11-compressor.png"
   caption: 'Marketing emails and social collateral from the hype campaign.  '

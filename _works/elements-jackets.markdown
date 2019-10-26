@@ -24,17 +24,18 @@ images:
 credits:
 - job: Art Direction
   name: Internal
-  url:
+  url: 
 - job: Photography
   name: Internal
-  url:
+  url: 
 - job: Videography
   name: Internal
-  url:
+  url: 
 - job: Web Dev
   name: Internal
-  url:
+  url: 
 press:
 - pub: Business Insider
   url: http://www.businessinsider.com/everlane-elements-jacket-anorak-review-2017-3
 ---
+

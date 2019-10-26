@@ -21,3 +21,4 @@ images:
   caption: 
 - path: "/uploads/mobile-duo.png"
 ---
+

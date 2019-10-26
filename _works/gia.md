@@ -26,7 +26,7 @@ images:
 credits:
 - job: Creative Director
   name: Internal
-  url:
+  url: 
 - job: Art Director
   name: Quinn Cantwell
 - job: Photography
@@ -37,3 +37,4 @@ credits:
   url: http://www.earlier.io/
 layout: work
 ---
+
