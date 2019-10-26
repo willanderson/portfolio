@@ -20,7 +20,9 @@ images:
 - path: "/uploads/img3-4f2d15.jpg"
   caption: Final desktop landing page.
   addpadding: true
-- path: https://player.vimeo.com/external/208698796.hd.mp4?s=ba590c32bf4a08a41f24391814c2983716dd7b91&profile_id=174
+- path: <iframe src="https://player.vimeo.com/video/208698796?autoplay=1&loop=1&title=0&byline=0&portrait=0"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+    allow="autoplay; fullscreen" allowfullscreen></iframe>
   caption: 'The final product carousel '
   addpadding: true
 - path: "/uploads/img4.png"
