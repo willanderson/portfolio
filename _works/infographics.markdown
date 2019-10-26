@@ -12,8 +12,12 @@ source: http://everlane.com
 thumbnail_path: "/uploads/radprice.jpg"
 images:
 - path: "/uploads/mobiles.png"
+  caption: 
+  narrow: 
+  addpadding: 
 - path: "/uploads/iterations-1.jpg"
 - path: "/uploads/mobile-1.png"
+  narrow: true
 url: http://everlane.com
 layout: work
 ---
