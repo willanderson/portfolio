@@ -9,13 +9,23 @@ thumbnail_path: "/uploads/km.jpg"
 bg-image: "/uploads/subhero-compressor.jpg"
 images:
 - path: "/uploads/img2-compressor.png"
+  caption: 
+  narrow: 
+  addpadding: true
 - path: "/uploads/img3-compressor-c3e142.jpg"
+  addpadding: truw
 - path: "/uploads/fieldnotes-compressor.jpg"
+  addpadding: true
 - path: https://player.vimeo.com/external/218679009.hd.mp4?s=66d343ce3c16227fc398c31e84069ad6dd708b9f&profile_id=169
+  addpadding: true
 - path: "/uploads/img4.jpg"
+  addpadding: true
 - path: "/uploads/img5-compressor-b8c4de.jpg"
+  addpadding: true
 - path: "/uploads/img6.png"
+  addpadding: true
 - path: "/uploads/img7-compressor-fede8c.png"
+  addpadding: true
 credits:
 - job: Art Director
   name: Dominick Volini
