@@ -1,5 +1,5 @@
 ---
-title: Careers
+title: Everlane Stories
 date: 2017-05-10 14:43:00 -07:00
 position: 1
 name: Work at Everlane
@@ -23,7 +23,16 @@ images:
 - path: "/uploads/img3-aac417.jpg"
   caption: 
   addpadding: false
-- path: "/uploads/img4-0bb496.jpg"
+- path: "/uploads/factory2.jpg"
+  caption: 
+  addpadding: 
+- path: "/uploads/factory3.jpg"
+  caption: 
+  addpadding: 
+- path: "/uploads/factory4.jpg"
+  caption: 
+  addpadding: 
+- path: "/uploads/factory5.jpg"
   caption: 
   addpadding: 
 ---
