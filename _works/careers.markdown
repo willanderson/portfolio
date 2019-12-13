@@ -29,7 +29,7 @@ images:
 - path: "/uploads/factory3.jpg"
   caption: 
   addpadding: 
-- path: "/uploads/factory4.jpg"
+- path: "/uploads/.jpg"
   caption: 
   addpadding: 
 - path: "/uploads/factory5.jpg"
