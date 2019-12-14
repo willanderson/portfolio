@@ -13,11 +13,11 @@
   <meta content="/assets/ogimage.jpg" property="og:image">
 
 
-  <meta property="og:site_name" name="og:site_name" content="Quinn Cantwell by Will Anderson">
+  <meta property="og:site_name" name="og:site_name" content="index.html by Will Anderson">
 
 
 
-    <title>Quinn Cantwell</title>
+    <title>Everlane</title>
 
     <link rel="shortcut icon" type="image/png" href="/assets/fav.png"/>
     <link href="/css/normalize.css" rel="stylesheet">
@@ -36,7 +36,7 @@
     <script src="/js/app.js"></script>
 </head>
 
-<body class="work">
+<body class="default">
 
   <header>
   <nav class="flex w-100 bg-white border-box ph3 ph4-l pv3 justify-between bb b--black-50 fixed top-0 z-999">
@@ -49,89 +49,48 @@
   </nav>
 </header>
 
-  <section class="work">
-      
+  <section class="default">
+      Everlane
 
-<div class="w-100 flex flex-row flex-wrap z-5">
-
-  <div class="intro pt6-ns flex items-center  mt-51">
-      <div class="p-wrapper w-60-ns w-100 f3 pa3 center">
-          <p class="measure-narrow">
-</p>
-      </div>
+<div id="content">
+  <div class="pw-form">
+    <input class="f2 b0 p2" placeholder="Enter password" id="password" type="password">
+    <button class="f2" onclick="decrypt()">Enter</button>
+    <p id="errmsg" style="color: red;"></p>
   </div>
 
-  
-      
-      <div data-aos="fade-up" class="w-90-l w-100 mw9 center min-vh-100-l h-auto flex items-center justify-center  ">
-          <div>
-            <img class="h-auto mw8-ns" src="/uploads/img0-compressor%20(1).jpg" />
-          </div>
-      </div>
-      
-
-  
-      
-      <div data-aos="fade-up" class="w-90-l w-100 mw9 center min-vh-100-l h-auto flex items-center justify-center  ">
-          <div>
-            <img class="h-auto mw8-ns" src="/uploads/desktop2.jpg" />
-          </div>
-      </div>
-      
-
-  
-      
-      <div data-aos="fade-up" class="w-90-l w-100 mw9 center min-vh-100-l h-auto flex items-center justify-center  ">
-          <div>
-            <img class="h-auto mw8-ns" src="/uploads/desktop3.jpg" />
-          </div>
-      </div>
-      
-
-  
-      
-      <div data-aos="fade-up" class="w-90-l w-100 mw9 center min-vh-100-l h-auto flex items-center justify-center  ">
-          <div>
-            <img class="h-auto mw8-ns" src="/uploads/dekstop4.jpg" />
-          </div>
-      </div>
-      
-
-  
-      
-      <div data-aos="fade-up" class="w-90-l w-100 mw9 center min-vh-100-l h-auto flex items-center justify-center  ">
-          <div>
-            <img class="h-auto mw8-ns" src="/uploads/desktop5.jpg" />
-          </div>
-      </div>
-      
-
-  
-      
-      <div data-aos="fade-up" class="w-90-l w-100 mw9 center min-vh-100-l h-auto flex items-center justify-center  ">
-          <div>
-            <img class="h-auto mw8-ns" src="/uploads/desktop6.jpg" />
-          </div>
-      </div>
-      
-
-  
-      
-      <div data-aos="fade-up" class="w-90-l w-100 mw9 center min-vh-100-l h-auto flex items-center justify-center  ">
-          <div>
-            <img class="h-auto mw8-ns" src="/uploads/mobile-duo.png" />
-          </div>
-      </div>
-      
-
-  
-
 </div>
-<script src="https://player.vimeo.com/api/player.js"></script>
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js" integrity="sha256-u6BamZiW5tCemje2nrteKC2KoLIKX9lKPSpvCkOhamw=" crossorigin="anonymous"></script>
 <script>
-    AOS.init();
+  function decrypt() {
+    var protectedContent = "RtMfF8oCrdj81VNq50uCBw==|9Q3TR9z2gmMVOwOGycEx7gv748cFKVX4b73QDYLo9eI=|IfFcVftpH2zJnAQScA8clgYiIzBofVwXzcvLFysVuoU=";
+    var password = document.getElementById('password').value;
+    var payload = protectedContent.split("|");
+    var iv = payload[0];
+    var hmac = payload[1];
+    var cipherText = payload[2];
+    var passphraseDgst = CryptoJS.SHA256(password).toString();
+    var decryptedhmac = CryptoJS.HmacSHA256(cipherText, CryptoJS.enc.Hex.parse(passphraseDgst)).toString().trim();
+    if(CryptoJS.enc.Base64.parse(hmac).toString() === decryptedhmac){
+      var decrypted = CryptoJS.AES.decrypt(
+        {ciphertext:CryptoJS.enc.Base64.parse(cipherText)},
+        CryptoJS.enc.Hex.parse(passphraseDgst),
+        {iv:CryptoJS.enc.Base64.parse(iv)}
+      );
+      var content = CryptoJS.enc.Utf8.stringify(decrypted);
+      document.getElementById('content').innerHTML = content;
+    } else {
+      document.getElementById('errmsg').innerHTML = "Wrong password";
+    }
+  }
+  var passwordInput = document.getElementById('password');
+  passwordInput.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+      decrypt();
+    }
+  })
 </script>
 
   </section>

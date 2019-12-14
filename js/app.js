@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-
+  $("#apenndage").remove();
 
   var target = $('#projectTitle');
 
