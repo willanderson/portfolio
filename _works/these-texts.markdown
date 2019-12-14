@@ -14,7 +14,7 @@ images:
 - path: "/uploads/img1-dfcd38.jpg"
   caption: 'When I originally had my idea for the website, I began taking screenshots
     of texts and saving them on my phone.   '
-  addpadding: true
+  addpadding: false
 - path: "/uploads/img2-a0ef92.jpg"
   caption: 
 - path: "/uploads/img3-674c6b.jpg"
@@ -23,16 +23,16 @@ images:
   caption: 
 - path: "/uploads/img5-87f4c1.jpg"
   caption: 
-  narrow: true
+  narrow: false
 - path: "/uploads/img6.jpg"
   caption: 
-  narrow: true
+  narrow: false
 - path: "/uploads/img7.jpg"
   caption: 
-  narrow: true
+  narrow: false
 - path: "/uploads/img8.jpg"
   caption: 
-  narrow: true
+  narrow: false
 ---
 
 At some point, I decided it might look interesting to put a collection of my text messages on the internet. I'd strip out any context, or my responses. I'd order them chronologically. And that would be that.
