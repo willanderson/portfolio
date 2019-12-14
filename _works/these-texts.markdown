@@ -37,4 +37,4 @@ images:
 
 At some point, I decided it might look interesting to put a collection of my text messages on the internet. I'd strip out any context, or my responses. I'd order them chronologically.
 
-Everything was pretty simple to design and build. The hardest part was getting the little carrot on the chat bubbles to look right, and getting the dates to dynamically format correctly. Oh, and figuring out how to download all my text messages into a .txt file so I didn't have to retype everything. That took awhile.
+Everything was pretty simple to design and build. The hardest part was getting the little carrot on the chat bubbles to look right, and getting the dates to format dynamically. Oh, and figuring out how to download all my text messages into a .txt file so I didn't have to retype everything. That took awhile.
