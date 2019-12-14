@@ -8,7 +8,7 @@ source: https://www.everlane.com/denim
 thumbnail_path: "/uploads/denim.png"
 bg-image: "/uploads/bg-compressor.jpg"
 images:
-- path: "/uploads/Denim01-3a5160.jpg"
+- path: "/uploads/Denim01-f05b49.jpg"
   caption: 'Process, process, process. '
   narrow: 
   addpadding: 
