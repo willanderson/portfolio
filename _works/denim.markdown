@@ -81,6 +81,4 @@ Denim represented an entirely new category for Everlane. And not just any catego
 
 Everything—from the digital, print, social and out-of-home marketing—centered around one idea: we've made denim you can get behind. It's priced fairly; it's designed thoughtfully; and, unlike 99% of denim out there, it doesn't fuck up the planet to manufacture it.
 
-I worked with our creative, marketing, and EPD teams to build out a 3-week interactive site to both hype the product and reiterate our core message. Along with housing our 2 teaser commercials, the site evolved week-to-week, panning out to reveal more details and story as the launch grew closer. We topped off the experience by designing an entirely new shopping experience on Everlane.com (we're calling it the Denim Shop) and also launching an immersive factory site that took customers inside our denim making process. It's by far the most in-depth factory story we've ever produced.
-
-OK go buy some denim now.
+I worked with our creative, marketing, and EPD teams to build out a 3-week interactive site to both hype the product and reiterate our core message. Along with housing our 2 teaser commercials, the site evolved week-to-week, panning out to reveal more details and story as the launch grew closer. We topped off the experience by designing an entirely new shopping experience on Everlane.com (we're calling it the Denim Shop) and also launching an immersive factory site that took customers inside our denim making process. 
