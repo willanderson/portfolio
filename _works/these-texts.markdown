@@ -7,30 +7,30 @@ featured: true
 source: http://thesetexts.com/
 thumbnail_path: "/uploads/thesetexts.png"
 images:
-- path: "/uploads/img0-f992b5.jpg"
+- path: "/uploads/img0-c64ddd.jpg"
   caption: 
   narrow: 
   addpadding: 
-- path: "/uploads/img1.png"
+- path: "/uploads/img1-dfcd38.jpg"
   caption: 'When I originally had my idea for the website, I began taking screenshots
     of texts and saving them on my phone.   '
   addpadding: true
-- path: "/uploads/img2-c57c7c.jpg"
+- path: "/uploads/img2-a0ef92.jpg"
   caption: 
-- path: "/uploads/img3-da7146.jpg"
+- path: "/uploads/img3-674c6b.jpg"
   caption: 'The 404 page—the only blue bubble you''ll find on the site. '
-- path: "/uploads/img4-8ba23b.jpg"
+- path: "/uploads/img4-4cfa26.jpg"
   caption: 
-- path: "/uploads/img5-5314a4.png"
-  caption: 
-  narrow: true
-- path: "/uploads/img6-2e1a45.png"
+- path: "/uploads/img5-87f4c1.jpg"
   caption: 
   narrow: true
-- path: "/uploads/img7-591c75.png"
+- path: "/uploads/img6.jpg"
   caption: 
   narrow: true
-- path: "/uploads/img8-aa3e22.png"
+- path: "/uploads/img7.jpg"
+  caption: 
+  narrow: true
+- path: "/uploads/img8.jpg"
   caption: 
   narrow: true
 ---
