@@ -26,7 +26,7 @@ images:
     style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
     allow="autoplay; fullscreen" allowfullscreen></iframe>
   caption: Full scroll experience for the denim factory landing page
-  addpadding: false
+  addpadding: true
 - path: "/uploads/Denim03.jpg"
   caption: The Denim hype mobile landing page
   narrow: false
@@ -41,7 +41,7 @@ images:
     style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
     allow="autoplay; fullscreen" allowfullscreen></iframe>
   caption: 
-  addpadding: false
+  addpadding: true
 - path: "/uploads/Denim06.jpg"
   caption: 'The hype campaign ran for three weeks, and brought customers to an immersive
     web experience where they could preview the styles and watch the campaign videos. '
