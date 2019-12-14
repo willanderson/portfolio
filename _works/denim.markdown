@@ -8,7 +8,7 @@ source: https://www.everlane.com/denim
 thumbnail_path: "/uploads/denim.png"
 bg-image: "/uploads/bg-compressor.jpg"
 images:
-- path: "/uploads/img0-compressor-586ad1.jpg"
+- path: "/uploads/Denim01-3a5160.jpg"
   caption: 'Process, process, process. '
   narrow: 
   addpadding: 
@@ -16,10 +16,10 @@ images:
   caption: An array of early wireframes for both the hype landing pages and Denim
     Shop
   addpadding: true
-- path: "/uploads/img3-compressor.jpg"
+- path: "/uploads/Denim00-a8e159.jpg"
   caption: The Denim Factory desktop landing page
   addpadding: true
-- path: "/uploads/img4-compressor.png"
+- path: "/uploads/Denim02.jpg"
   caption: The Denim Factory mobile landing page
   addpadding: true
 - path: <iframe src="https://player.vimeo.com/video/232878410?autoplay=1&loop=1&title=0&byline=0&portrait=0"
@@ -27,14 +27,14 @@ images:
     allow="autoplay; fullscreen" allowfullscreen></iframe>
   caption: Full scroll experience for the denim factory landing page
   addpadding: true
-- path: "/uploads/img6-compressor.png"
+- path: "/uploads/Denim03.jpg"
   caption: The Denim hype mobile landing page
   narrow: true
   addpadding: true
-- path: "/uploads/img5-compressor.jpg"
+- path: "/uploads/Denim04.jpg"
   caption: The Denim hype desktop landing page
   addpadding: true
-- path: "/uploads/img7-compressor.png"
+- path: "/uploads/Denim05.jpg"
   caption: 'On September 6, we shut our entire website down in anticipation for denim. '
   addpadding: true
 - path: <iframe src="https://player.vimeo.com/video/232875188?autoplay=1&loop=1&title=0&byline=0&portrait=0"
@@ -42,15 +42,15 @@ images:
     allow="autoplay; fullscreen" allowfullscreen></iframe>
   caption: 
   addpadding: true
-- path: "/uploads/img8-compressor.png"
+- path: "/uploads/Denim06.jpg"
   caption: 'The hype campaign ran for three weeks, and brought customers to an immersive
     web experience where they could preview the styles and watch the campaign videos. '
   addpadding: true
-- path: "/uploads/img9-compressor.png"
+- path: "/uploads/Denim07.jpg"
   caption: 'The custom denim shop featured expanded product details, a comparison
     tool, and additional editorial moments. '
   addpadding: true
-- path: "/uploads/img10-compressor.png"
+- path: "/uploads/Denim08.jpg"
   caption: 
   addpadding: true
 - path: "/uploads/img11-compressor.png"
