@@ -4,9 +4,12 @@ date: 2018-05-10 19:52:00 -07:00
 position: 0
 name: Everlane Core Product
 source: http://everlane.com
-thumbnail_path: "/uploads/dotcom.jpg"
+thumbnail_path: "/uploads/Desktop.png"
 images:
 - path: "/uploads/dot%20com-1.png"
+  caption: 
+  narrow: 
+  addpadding: 
 - path: "/uploads/dot%20com-2.png"
 - path: "/uploads/dot%20com-3.png"
 - path: "/uploads/dot%20com-4.png"
