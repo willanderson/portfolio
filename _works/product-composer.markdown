@@ -12,14 +12,6 @@ images:
   caption: 
   narrow: 
   addpadding: 
-- path: "/uploads/Composer%203.jpg"
-  caption: 
-  narrow: 
-  addpadding: 
-- path: "/uploads/Composer%204.jpg"
-  caption: 
-  narrow: 
-  addpadding: 
 - path: "/uploads/Composer%206.jpg"
   caption: 
   narrow: 
