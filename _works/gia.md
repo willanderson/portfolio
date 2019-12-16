@@ -18,7 +18,6 @@ images:
   narrow: 
   addpadding: 
 - path: "/uploads/Gia%2002.jpg"
-- path: "/uploads/Gia%2002-93896f.jpg"
 - path: "/uploads/Gia%2003.jpg"
   narrow: false
   addpadding: false
@@ -28,6 +27,7 @@ images:
     allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 '
+  addpadding: true
 - path: "/img/gia/img-5.png"
 - path: "/uploads/Gia%2006.jpg"
 credits:
