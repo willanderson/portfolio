@@ -21,7 +21,7 @@ images:
 - path: "/uploads/Gia%2003.jpg"
   narrow: false
   addpadding: false
-- path: "/uploads/gia-video.jpg"
+- path: "/uploads/Gia%20mobile.jpg"
 - path: '<iframe src="https://player.vimeo.com/video/209524753?autoplay=1&loop=1&title=0&byline=0&portrait=0"
     style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
     allow="autoplay; fullscreen" allowfullscreen></iframe>
