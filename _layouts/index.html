@@ -16,7 +16,7 @@ layout: default
     {% assign sorted_work = site.works | sort:"position" %}
     {% for work in sorted_work %}
     <div class="w-50-ns w-100-m w-100 mw9 br bb b--black-50">
-      <div class="h8 pa5 flex items-center justify-center h-100">
+      <div class="h8 pa5-ns pa3 flex items-center justify-center h-100">
         <a class="project" name="{{ work.url | replace: '/work/', ''}}" href="{{ work.url }}">
           <h1></h1>
           <img class="window_img" src="{{ work.thumbnail_path }}" />

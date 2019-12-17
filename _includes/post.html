@@ -8,13 +8,13 @@
 
   {% for image in page.images %}
       {% if image.path contains "iframe" %}
-      <div class="w-90-l w-100 mw9 center min-vh-100-l h-auto flex items-center justify-center {% if image.narrow %} narrow {%endif %} {% if image.addpadding %} pa6 {%endif %}">
+      <div class="w-90-l w-100 mw8 center min-vh-100-l h-auto flex items-center justify-center ph4 mv2">
       <div class="w-100 h-auto shadow" style="padding:61.86% 0 0 0;position:relative;">
           {{ image.path }}
       </div>
       </div>
       {% else %}
-      <div data-aos="fade-up" class="w-90-l w-100 mw9 center min-vh-100-l h-auto flex items-center justify-center {% if image.narrow %} narrow {%endif %} {% if image.addpadding %} pa6 {%endif %}">
+      <div data-aos="fade-up" class="w-90-l w-100 mw9 center min-vh-100-l h-auto flex items-center justify-center {% if image.narrow %} narrow {%endif %} {% if image.addpadding %} pa3 {%endif %}">
           <div>
             <img class="h-auto mw8-ns" src="{{image.path}}" />
           </div>

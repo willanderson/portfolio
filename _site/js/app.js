@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $("#apenndage").remove();
+  var projectName;
 
   var target = $('#projectTitle');
 
@@ -33,10 +33,20 @@ $(document).ready(function() {
 
   // Show project title on hover
 
+
+  function getName(element) {
+    return $(element).attr("name");
+  }
+
+
   $( ".project" ).mouseenter(function() {
-      $("#navUrl").append("<span id='apenndage'>/" + $(this).attr("name") + "</span>");
+      var projectName = getName(this);
+      $("#navUrl").append("<span id='apenndage'>/" + projectName + "</span>");
   })
+
+
   .mouseleave(function() {
+      var projectName = undefined;
       $("#apenndage").remove();
   });
 
