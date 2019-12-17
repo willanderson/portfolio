@@ -42,10 +42,6 @@ images:
     allow="autoplay; fullscreen" allowfullscreen></iframe>
   caption: 
   addpadding: true
-- path: "/uploads/Denim06.jpg"
-  caption: 'The hype campaign ran for three weeks, and brought customers to an immersive
-    web experience where they could preview the styles and watch the campaign videos. '
-  addpadding: false
 - path: "/uploads/Denim07.jpg"
   caption: 'The custom denim shop featured expanded product details, a comparison
     tool, and additional editorial moments. '
