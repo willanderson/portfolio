@@ -6,7 +6,7 @@ tags:
 - ux
 - interactive
 - data visualization
-position: 14
+position: 16
 name: Infographics
 source: http://everlane.com
 thumbnail_path: "/uploads/radprice.jpg"

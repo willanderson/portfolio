@@ -1,7 +1,7 @@
 ---
 title: Modern Oxford
 date: 2016-08-06 17:00:00 -07:00
-position: 9
+position: 11
 name: Modern Oxford
 featured: true
 source: https://www.everlane.com/modern-oxford

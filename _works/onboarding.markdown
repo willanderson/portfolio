@@ -1,6 +1,7 @@
 ---
 title: Onboarding
 date: 2019-12-17 16:48:00 -08:00
+position: 5
 name: commerce-onboarding
 thumbnail_path: "/uploads/thumb-5052de.png"
 images:

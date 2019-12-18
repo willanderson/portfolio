@@ -1,6 +1,7 @@
 ---
 title: Product Composer
 date: 2019-12-16 14:09:00 -08:00
+position: 0
 name: Product Composer
 thumbnail_path: "/uploads/thumb-aecf87.jpg"
 images:

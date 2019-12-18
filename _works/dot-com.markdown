@@ -1,7 +1,7 @@
 ---
 title: Everlane
 date: 2018-05-10 19:52:00 -07:00
-position: 0
+position: 1
 name: Everlane Core Product
 source: http://everlane.com
 thumbnail_path: "/uploads/drkblue.png"

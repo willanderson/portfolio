@@ -1,7 +1,7 @@
 ---
 title: Elements Jackets
 date: 2017-03-13 22:01:00 -07:00
-position: 17
+position: 19
 name: The Elements Jackets
 source: http://everlane.com/elements
 thumbnail_path: "/uploads/elements.jpg"

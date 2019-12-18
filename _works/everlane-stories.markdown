@@ -1,7 +1,7 @@
 ---
 title: Everlane Stories
 date: 2017-05-10 14:43:00 -07:00
-position: 1
+position: 2
 name: stories
 source: https://www.everlane.com/careers
 thumbnail_path: "/uploads/thumb-ecb0fa.jpg"
