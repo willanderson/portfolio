@@ -13,11 +13,11 @@
   <meta content="/assets/ogimage.jpg" property="og:image">
 
 
-  <meta property="og:site_name" name="og:site_name" content="index.html by Will Anderson">
+  <meta property="og:site_name" name="og:site_name" content="commerce-onboarding by Will Anderson">
 
 
 
-    <title>Everlane</title>
+    <title>Onboarding</title>
 
     <link rel="shortcut icon" type="image/png" href="/assets/fav.png"/>
     <link href="/css/normalize.css" rel="stylesheet">
@@ -36,7 +36,7 @@
     <script src="/js/app.js"></script>
 </head>
 
-<body class="default">
+<body class="work">
 
   <header>
   <nav class="flex w-100 bg-white border-box ph3 ph4-l pv3 justify-between bb b--black-50 fixed top-0 z-999">
@@ -49,48 +49,79 @@
   </nav>
 </header>
 
-  <section class="default">
-      Everlane
+  <section class="work">
+      
 
-<div id="content">
-  <div class="pw-form">
-    <input class="f2 b0 p2" placeholder="Enter password" id="password" type="password">
-    <button class="f2" onclick="decrypt()">Enter</button>
-    <p id="errmsg" style="color: red;"></p>
+<div class="w-100 flex flex-row flex-wrap z-5">
+
+  <div class="intro pt6-ns flex items-center  mt-51">
+      <div class="p-wrapper w-60-ns w-100 f3 pa3 center">
+          <p class="measure-narrow">
+</p>
+      </div>
   </div>
 
-</div>
+  
+      
+      <div data-aos="fade-up" class="w-90-l w-100 mw9 center min-vh-100-l h-auto flex items-center justify-center ph4 ph0-l  ">
+          <div>
+            <img class="h-auto w-100 mw8-ns" src="/uploads/Onboarfding%200.jpg" />
+          </div>
+      </div>
+      
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js" integrity="sha256-u6BamZiW5tCemje2nrteKC2KoLIKX9lKPSpvCkOhamw=" crossorigin="anonymous"></script>
+  
+      
+      <div data-aos="fade-up" class="w-90-l w-100 mw9 center min-vh-100-l h-auto flex items-center justify-center ph4 ph0-l  ">
+          <div>
+            <img class="h-auto w-100 mw8-ns" src="/uploads/Onboarding%201.jpg" />
+          </div>
+      </div>
+      
+
+  
+      
+      <div data-aos="fade-up" class="w-90-l w-100 mw9 center min-vh-100-l h-auto flex items-center justify-center ph4 ph0-l  ">
+          <div>
+            <img class="h-auto w-100 mw8-ns" src="/uploads/Onboarding%202.jpg" />
+          </div>
+      </div>
+      
+
+  
+      
+      <div data-aos="fade-up" class="w-90-l w-100 mw9 center min-vh-100-l h-auto flex items-center justify-center ph4 ph0-l  ">
+          <div>
+            <img class="h-auto w-100 mw8-ns" src="/uploads/Onboarding%203.jpg" />
+          </div>
+      </div>
+      
+
+  
+      
+      <div class="w-90-l w-100 mw8 center min-vh-100-l h-auto flex items-center justify-center ph4 mv2">
+      <div class="w-100 h-auto shadow" style="padding:61.86% 0 0 0;position:relative;">
+          <iframe src="https://player.vimeo.com/video/380145902?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
+      </div>
+      </div>
+      
+
+  
+      
+      <div data-aos="fade-up" class="w-90-l w-100 mw9 center min-vh-100-l h-auto flex items-center justify-center ph4 ph0-l  ">
+          <div>
+            <img class="h-auto w-100 mw8-ns" src="/uploads/Onboarding%204.jpg" />
+          </div>
+      </div>
+      
+
+  
+
+</div>
+<script src="https://player.vimeo.com/api/player.js"></script>
+
 <script>
-  function decrypt() {
-    var protectedContent = "DG3G3cpdioML6FUUGmpGgQ==|Hm/Kc4pqLwKduqluQk/IQP10gU1iTbVdBZ3rIWYyz+Q=|3LtNX0NBCcgeLhD4lNU0hZxUP9Xoi/enPLWJSThsK+0=";
-    var password = document.getElementById('password').value;
-    var payload = protectedContent.split("|");
-    var iv = payload[0];
-    var hmac = payload[1];
-    var cipherText = payload[2];
-    var passphraseDgst = CryptoJS.SHA256(password).toString();
-    var decryptedhmac = CryptoJS.HmacSHA256(cipherText, CryptoJS.enc.Hex.parse(passphraseDgst)).toString().trim();
-    if(CryptoJS.enc.Base64.parse(hmac).toString() === decryptedhmac){
-      var decrypted = CryptoJS.AES.decrypt(
-        {ciphertext:CryptoJS.enc.Base64.parse(cipherText)},
-        CryptoJS.enc.Hex.parse(passphraseDgst),
-        {iv:CryptoJS.enc.Base64.parse(iv)}
-      );
-      var content = CryptoJS.enc.Utf8.stringify(decrypted);
-      document.getElementById('content').innerHTML = content;
-    } else {
-      document.getElementById('errmsg').innerHTML = "Wrong password";
-    }
-  }
-  var passwordInput = document.getElementById('password');
-  passwordInput.addEventListener("keyup", function(event) {
-    event.preventDefault();
-    if (event.keyCode === 13) {
-      decrypt();
-    }
-  })
+    AOS.init();
 </script>
 
   </section>
