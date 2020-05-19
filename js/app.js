@@ -1,21 +1,53 @@
 $(document).ready(function() {
 
-  // $(document).on('scroll', function() {
-  //   if($(this).scrollTop()>=$('#work').position().top){
-  //       $(".work-header-image").addClass("removeHeader");
-  //   }
-  // })
+  var projectName;
 
-    var header_height = $("#header").outerHeight(true);
-    $(".content").css("padding-top", header_height);
+  var target = $('#projectTitle');
 
-  $("#turnOn").click(function(){
-      $("#mobile_wrapper").toggleClass("hide");
-      $('#menuToggle').html($('#menuToggle').text() == 'Close' ? 'Menu' : 'Close')
-      // $("#menuToggle").html("Close");
+  $(window).on('scroll', function() {
+    var st = $(this).scrollTop();
+    target.css({
+      'opacity': 1 - st / 200
+    });
+  });
+
+
+  var distance = $('.projects').offset().top - 60;
+  var myElement = $('.navUrl');
+
+  $(window).scroll(function() {
+    if ($(this).scrollTop() >= distance) {
+      $("#navUrl").show();
+    } else {
+      $("#navUrl").hide();
+    }
+  });
+
+
+  // Animate scroll down to footer
+
+  $('a[href^="#"]').click(function() {
+    $(this.hash).velocity('scroll');
+  });
+
+
+  // Show project title on hover
+
+
+  function getName(element) {
+    return $(element).attr("name");
+  }
+
+
+  $( ".project" ).mouseenter(function() {
+      var projectName = getName(this);
+      $("#navUrl").append("<span id='apenndage'>/" + projectName + "</span>");
   })
 
-  $('footer').footerReveal();
 
+  .mouseleave(function() {
+      var projectName = undefined;
+      $("#apenndage").remove();
+  });
 
 });
