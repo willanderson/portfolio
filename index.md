@@ -8,3 +8,4 @@ intro: "Hi, I’m Will ☻ I’m a senior product designer at Artsy. Prior, I wa
 sectionID: projects
 layout: featured
 ---
+
