@@ -9,19 +9,23 @@ $(document).ready(function() {
     target.css({
       'opacity': 1 - st / 200
     });
-  });
-
-
-  var distance = $('.projects').offset().top - 60;
-  var myElement = $('.navUrl');
-
-  $(window).scroll(function() {
-    if ($(this).scrollTop() >= distance) {
-      $("#navUrl").show();
-    } else {
-      $("#navUrl").hide();
+    var theta = st / 100 % Math.PI;
+    if (st < 1000) {
+      $('#spin').css({ transform: 'rotate(' + theta + 'rad)' });
     }
   });
+
+
+  // var distance = $('.projects').offset().top - 60;
+  // var myElement = $('.navUrl');
+  //
+  // $(window).scroll(function() {
+  //   if ($(this).scrollTop() >= distance) {
+  //     $("#navUrl").show();
+  //   } else {
+  //     $("#navUrl").hide();
+  //   }
+  // });
 
 
   // Animate scroll down to footer
@@ -49,5 +53,7 @@ $(document).ready(function() {
       var projectName = undefined;
       $("#apenndage").remove();
   });
+
+
 
 });

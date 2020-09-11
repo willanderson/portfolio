@@ -1,16 +1,9 @@
 ---
 layout: default
+
 ---
 
-<div class="intro min-vh-75-offset flex items-center fixed z--1 top-0">
-  <div class="p-wrapper pa4 f1-ns f2">
-    <p class="measure-narrow">{{ page.intro }}</p>
-  </div>
-</div>
-
-
-
-<div id="indexProjects" class="projects bg-white mt-75vh-offset bt b--black-50">
+<div id="indexProjects" class="projects bg-white bt b--black-50">
   <div class="flex flex-wrap">
 
     {% assign sorted_work = site.works | sort:"position" %}

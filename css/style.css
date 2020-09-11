@@ -82,25 +82,31 @@ input[type=password] {
   margin-top: calc(75vh);
 }
 
-.grid {
+.grid-layout {
   width: 100%;
   display: grid;
   grid-auto-flow: row;
   grid-template-columns: repeat(24, 1fr);
 }
 
-.grid .span-24 {
+.grid-layout .span-24 {
   grid-column-end: span 24;
   grid-column-start: 1;
 }
 
-.grid .span-22 {
+.grid-layout .span-22 {
   grid-column-end: span 22;
   grid-column-start: 2;
 }
 
 
-.grid .span-20 {
+.grid-layout .span-20 {
   grid-column-end: span 20;
   grid-column-start: 3;
+}
+
+#spin {
+  display: inline-block;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(-90deg);
 }
